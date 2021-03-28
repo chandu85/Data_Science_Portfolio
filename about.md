@@ -7,10 +7,10 @@ Thank you for visting my site, I am Chandramouli Yalamanchili. I am originally f
 As part of our day to day job, we deal with massive amounts of data related to credit card or debit card transactions. Over the last few years I have noticed a huge demand for the data from various clients, everyone wanted to receive the authorization data in near real time and want to come up with some real time insights. Being in the center of this processing, I wanted to gain more understanding on what I can do with this data and there by help my team as well as the firm. That's where my data science interest comes from and made me join the Bellevue University's Data Science course.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/chandramouli-yalamanchili-9b442816" rel="nofollow noreferrer">
+  <a href="https://www.linkedin.com/in/chandramouli-yalamanchili-9b442816" rel="nofollow noreferrer" target="_blank">
     <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
   </a> &nbsp; 
-  <a href="https://github.com/chandu85" rel="nofollow noreferrer">
+  <a href="https://github.com/chandu85" rel="nofollow noreferrer" target="_blank">
     <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
   </a>
 </p>
