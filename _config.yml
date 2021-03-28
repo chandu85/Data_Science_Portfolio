@@ -9,3 +9,9 @@ navbar-links:
 social-network-links:
   github: chandu85
   linkedin: chandu85
+
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
