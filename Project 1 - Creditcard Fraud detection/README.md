@@ -1,1 +1,50 @@
-## Project 1 - Creditcard Fraud detection
+<!--
+---
+title: Creditcard Fraud detection
+author: Chandramouli Yalamanchili
+date: today
+---
+-->
+
+# Creditcard Fraud detection
+<a name="top"></a>
+
+## Introduction
+
+[back to top](#top)
+
+## Project Motivation
+
+[back to top](#top)
+
+## Data Background
+
+[back to top](#top)
+
+## Prerequisite
+* Python 3 (or Anaconda distribution with Python 3)
+* Jupyter or any other notebook
+
+[back to top](#top)
+
+## Method Used
+
+[back to top](#top)
+
+**Potential Issues?**
+
+[back to top](#top)
+
+
+## Authors
+Chandramouli Yalamanchili
+
+[back to top](#top)
+
+## Acknowledgement
+
+[back to top](#top)
+
+## References
+
+[back to top](#top)
