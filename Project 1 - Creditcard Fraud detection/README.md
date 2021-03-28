@@ -1,11 +1,6 @@
-<!--
----
-title: Creditcard Fraud detection
-author: Chandramouli Yalamanchili
-date: today
----
--->
 # <a name="top">Creditcard Fraud detection</a>
+Chandramouli Yalamanchili  
+Updated - 03/28/2021 [Created - 03/28/2021]
 
 ## Introduction
 
@@ -30,12 +25,6 @@ date: today
 [back to top](#top)
 
 **Potential Issues?**
-
-[back to top](#top)
-
-
-## Authors
-Chandramouli Yalamanchili
 
 [back to top](#top)
 
