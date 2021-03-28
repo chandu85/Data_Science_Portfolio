@@ -1,3 +1,7 @@
+---
+title: New Issue
+labels: bug, enhancement
+---
 <!--#
 project_1_name=Credit Card Fraud Detection
 project_1_description=This project will attempt to build a machine learning model that will predict fraudulent transactions.
