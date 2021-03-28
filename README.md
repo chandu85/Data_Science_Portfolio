@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Chandu's portfolio
 ---
 # DSC680
 DSC680 - Final class in the data science course
