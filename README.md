@@ -1,4 +1,4 @@
-<p alight='right'>[Home](https://chandu85.github.io/data-science/) | [About Me](https://chandu85.github.io/data-science/aboutme.html)</p>
+[Home](https://chandu85.github.io/data-science/) | [About Me](https://chandu85.github.io/data-science/aboutme.html)
 
 # Chandramouli Yalamanchili
 Welcome to my data science portfolio
