@@ -57,7 +57,7 @@ provided.
 Once the model is ready, the next big challenge for me would be to evaluate options to integrate this model to work with real time transactions coming through to determine and stop the fradulent transactions immediately.
 
 ## Acknowledgement
-  Once the machine learning model has been created, it can be used to efficiently stop the fraudultent credit card transactions.
+  Once the machine learning model has been created, it can be used to efficiently stop the fraudulent credit card transactions.  
   One big challenge with credit card transaction data is that the concentration of fradulent transactions is very low resulting in skewed data for training the models. We have to use the sampling techniques to balance the data before using the same to train the models to acheieve high accuracy.
 
 [back to top](#top)
