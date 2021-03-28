@@ -1,6 +1,6 @@
 <p align="right"><a href="https://chandu85.github.io/data-science/"><b>Home</b></a> | <a href="https://chandu85.github.io/data-science/about.html"><b>About Me</b></a></p>
 
-<p align="center"><h1>About Me</h1></p>
+<h1 align="center">About Me</h1>
 
 <p align="center"><img src="images/profile_pic.jpeg" alt="Chandu" width="200" height="200"></p>
 
