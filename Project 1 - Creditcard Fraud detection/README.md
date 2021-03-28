@@ -5,9 +5,7 @@ author: Chandramouli Yalamanchili
 date: today
 ---
 -->
-
-<a name="top"></a>
-# Creditcard Fraud detection
+# <a name="top">Creditcard Fraud detection</a>
 
 ## Introduction
 
