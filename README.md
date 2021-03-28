@@ -1,7 +1,8 @@
-[Home](https://chandu85.github.io/data-science/) | [About Me](https://chandu85.github.io/data-science/aboutme.html)
-
 # Chandramouli Yalamanchili
 Welcome to my data science portfolio
+
+<center>About Me</center>
+<p slign="center"> About Me</p>
 
 [Project 1 - Credit Card Fraud Detection](Project%201%20-%20Creditcard%20Fraud%20detection/):
 This project will attempt to build a machine learning model that will predict fraudulent transactions.
