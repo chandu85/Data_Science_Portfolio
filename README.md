@@ -1,3 +1,7 @@
+---
+project_1_name: "Credit Card Fraud Detection "
+---  
+
 # DSC680
 DSC680 - Final class in the data science course
 
