@@ -1,5 +1,6 @@
 ---
 project_1_name: "Credit Card Fraud Detection "
+hidden: true
 ---  
 
 # DSC680
