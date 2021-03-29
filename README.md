@@ -1,7 +1,7 @@
 <p align="right"><a href="https://chandu85.github.io/data-science/"><b>Home</b></a> | <a href="https://chandu85.github.io/data-science/about.html"><b>About Me</b></a></p>
 
-# Chandramouli Yalamanchili
-Welcome to my data science portfolio
+<h1 align="center">Chandramouli Yalamanchili</h1>
+<p align="center">Welcome to my data science portfolio</p>
 
 <p align="center"><b>About Me</b></p>
 I am Chandramouli Yalamanchili. I am originally from India, staying in U.S.A for last 9 years. I work as mainframe programmer in financial or banking domain. 
