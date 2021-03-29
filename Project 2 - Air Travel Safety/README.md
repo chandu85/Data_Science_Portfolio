@@ -45,9 +45,8 @@ Reference : Data Set
 https://github.com/fivethirtyeight/data/tree/master/airline-safety
 2. Motor vehicle fatality rate in U.S. by year, Retrieved from
 https://en.wikipedia.org/wiki/Motor_vehicle_fatality_rate_in_U.S._by_year  
-[back to top]
 3. TSA traveller throughput, retrieved from
 https://www.tsa.gov/coronavirus/passenger-throughput
 4. Air traffic by the numbers, retrieved from
 https://www.faa.gov/air_traffic/by_the_numbers/  
-(#top)
+[back to top](#top)
