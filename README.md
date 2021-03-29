@@ -23,7 +23,7 @@ This project involves EDA process to extract the data for modeling and then run 
 In this project I will create a model that would establish the sentiment for a movie review comment from IMDB.
 
 [Project 5 - Image classification model](#):
-In this project I will create a Keras CNN model that would classify the images and then evaluated its performance.
+In this project I will create a Keras CNN model that would classify the images and then evaluate its performance.
 
 [Project 6 - Stock Price Prediction](#):
 In this project I will create a neural network to predict if a stock price is going to raise considering the historic details.
@@ -31,6 +31,11 @@ In this project I will create a neural network to predict if a stock price is go
 [Project 7 - House Price Prediction](#):
 In this project I will create a regression model to predict house price based on the selected feature list.
 
-
 [Project 8 - Credit Card Customer Segmentation](#):
 In this project I will create a clustering model to extract segments of customers depending on their behaviour patterns.
+
+[Project 9 - Weather application](#):
+This project is to explore different types of data ingestion mechanisms available, this project will mainly concentrate on pulling the data from web using API.
+
+[Project 10 - Stroke Prediction](#):
+This project is to build a model that predicts the stroke based on the features provided.
