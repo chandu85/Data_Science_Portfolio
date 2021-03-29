@@ -15,3 +15,6 @@ This project will attempt to build a machine learning model that will predict fr
 
 [Project 2 - Air Travel Safety Analysis](Project%202%20-%20Air%20Travel%20Safety/):
 As part of this project I have used several visualization techniques to review the safety of air travel when compared with other means of transportation.
+
+[Project 3 - US Permanent Visa](#):
+This project involves EDA process to extract the data for modeling and then run the data through a prediction model to be about to predict visa approval status provided the input features.
