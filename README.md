@@ -11,10 +11,26 @@ As part of our day to day job, we deal with massive amounts of data related to c
 Here is the collection of different data science projects I have worked on:
 
 [Project 1 - Credit Card Fraud Detection](Project%201%20-%20Creditcard%20Fraud%20detection/):
-This project will attempt to build a machine learning model that will predict fraudulent transactions.
+As part of this porject I will build a machine learning model that will predict fraudulent transactions.
 
 [Project 2 - Air Travel Safety Analysis](Project%202%20-%20Air%20Travel%20Safety/):
 As part of this project I have used several visualization techniques to review the safety of air travel when compared with other means of transportation.
 
 [Project 3 - US Permanent Visa](#):
 This project involves EDA process to extract the data for modeling and then run the data through a prediction model to be about to predict visa approval status provided the input features.
+
+[Project 4 - Sentiment Analysis of IMDB moview reviews](#):
+In this project I will create a model that would establish the sentiment for a movie review comment from IMDB.
+
+[Project 5 - Image classification model](#):
+In this project I will create a Keras CNN model that would classify the images and then evaluated its performance.
+
+[Project 6 - Stock Price Prediction](#):
+In this project I will create a neural network to predict if a stock price is going to raise considering the historic details.
+
+[Project 7 - House Price Prediction](#):
+In this project I will create a regression model to predict house price based on the selected feature list.
+
+
+[Project 8 - Credit Card Customer Segmentation](#):
+In this project I will create a clustering model to extract segments of customers depending on their behaviour patterns.
