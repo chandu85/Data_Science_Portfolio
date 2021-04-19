@@ -1,3 +1,18 @@
+theme: jekyll-theme-minimal
+title: Credit Card Fraud Detection
+author: Chandramouli Yalamanchili
 baseurl: "data-science"
-author: "Chandramouli Yalamanchili"
-title: "Creditcard Fraud detection"
+
+navbar-links:
+  About Me: "aboutme"
+  
+  
+social-network-links:
+  github: chandu85
+  linkedin: chandu85
+
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
