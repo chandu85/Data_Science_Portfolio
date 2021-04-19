@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: Data Science Portfolio
 author: Chandramouli Yalamanchili
+baseurl: "data-science"
 
 navbar-links:
   About Me: "aboutme"
