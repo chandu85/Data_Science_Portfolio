@@ -1,11 +1,9 @@
-<p align="right"><a href="https://chandu85.github.io/data-science/"><b>Home</b></a> | <a href="https://chandu85.github.io/data-science/about.html"><b>About Me</b></a></p>
-
-# <a name="top">Creditcard Fraud detection</a>
+# <a name="top">Stock Market Price Prediction</a>
 Chandramouli Yalamanchili  
 Updated - 03/28/2021 [Created - 03/28/2021]
 
 ## Introduction
-
+This Project is currently in progress
 [back to top](#top)
 
 ## Project Motivation
@@ -26,7 +24,11 @@ Updated - 03/28/2021 [Created - 03/28/2021]
 
 [back to top](#top)
 
-**Potential Issues?**
+## Potential Issues?
+
+[back to top](#top)
+
+## Future scope
 
 [back to top](#top)
 

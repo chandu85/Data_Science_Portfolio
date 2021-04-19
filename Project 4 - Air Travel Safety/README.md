@@ -31,7 +31,7 @@ In this post I would like to present different statistical data showing how much
 - Used PowerBI to extract different details from both airline safety as well as vehicle fatality rate datasets to come up with the comparison between airline safety when compared with other means of transportation.  
 [back to top](#top)
 
-## Potential Issues?
+## Potential Issues
 - Extracting the required data was challenge as data is not uniform across several years. I had used data from last 20 years for comparison.  
 [back to top](#top)
 
