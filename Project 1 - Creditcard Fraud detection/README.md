@@ -2,7 +2,6 @@
 Chandramouli Yalamanchili  
 Updated - 03/28/2021 [Created - 03/28/2021]
 
-<br/>
 ## Introduction
   We have witnessed an enormous evolution in credit card processing over last few years, issuing chip-based credit cards, starting mobile device-based wallets like Apple Pay is a significant change done to secure credit card transactions.
 
@@ -11,7 +10,7 @@ Updated - 03/28/2021 [Created - 03/28/2021]
   Increasing fraud in the industry makes fraud prediction very critical to be able to identify and stop fraud in real time, and data science plays a significant role in analyzing and being able to predict fraud based on transactional and cardholder information. The scope of this project is to research and identify different types of predictive analysis algorithms available that can be applied to determine and stop fraudulent transactions.  
 
 [back to top](#top)
-<br/>
+
 ## Project Motivation
 - We currently have multiple fraud detection tools and most of them highly dependent on manual intervention to build and maintain for more efficiency in catching fraud.
 - Through this project, I want to research and see how data science and machine learning can help in this area to catch the fraud automatically with very less to no need of human supervision.
