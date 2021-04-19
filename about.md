@@ -1,3 +1,6 @@
+---
+layout: about
+---
 <p align="right"><a href="https://chandu85.github.io/data-science/"><b>Home</b></a> | <a href="https://chandu85.github.io/data-science/about.html"><b>About Me</b></a></p>
 
 <h1 align="center">About Me</h1>
