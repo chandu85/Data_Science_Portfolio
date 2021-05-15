@@ -2001,7 +2001,7 @@ input, select, textarea {
 		.wrapper.style11 {
 			background-image: none;
 			background-color: #fff;
-			text-align: unset;
+			text-align:left;
 		}
 
 		.wrapper.style2 {
