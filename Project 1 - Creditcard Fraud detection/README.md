@@ -73,6 +73,7 @@ well-known data breaches happened in recent years:
 Below statistics from **Figure 1** shows the change in the trend of the fraudulent transaction from the
 card present transaction until 2015 to the card not-present transactions after 2015.  
 ![Credit Card Fraud Trends](./images/Fraud-Trends.png)
+<img src="./images/Fraud-Trends.png" alt="Credit Card Fraud Trends" width="1000"/>
 
 [back to top](#top)
 
