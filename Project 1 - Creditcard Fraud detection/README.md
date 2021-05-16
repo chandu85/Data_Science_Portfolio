@@ -1,4 +1,6 @@
+<!--
 ![Credit Card Fraud Detection](../images/credit-card.jpeg)
+-->
 # <a name="top"> </a>
 <h1 align="center">Creditcard Fraud detection</h1>
 <p align="center">
@@ -18,11 +20,59 @@
 
 ## Project Motivation
 - We currently have multiple fraud detection tools and most of them highly dependent on manual intervention to build and maintain for more efficiency in catching fraud.
-- Through this project, I want to research and see how data science and machine learning can help in this area to catch the fraud automatically with very less to no need of human supervision.
+- Through this project, we want to research and see how data science and machine learning can help in this area to catch the fraud automatically with very less to no need of human supervision.
 - Credit card fraud has always been one of the major concerns for financial institutions as it could
 them financially in term of penalties as well as impact their reputation.
 - Being able to detect fraud efficiently in real time with less human support would be a great help
 for the financial institutions.  
+[back to top](#top)
+
+## Domain Introduction
+### Credit Card Transactions
+  Credit card processing is one of the fast-growing industries due to rapid advances in technology
+and with more and more customers switching to use credit cards instead of cash for purchases.
+Innovations like mobile wallets provided by Apple, Google, and other major technology firms have
+played an enormous role in increased usage of credit cards in recent years.  
+  On a very high level, credit card transactions can be of two types, card present, and the card not
+present transactions. Card present transactions are the transactions from retail stores or gas stations where
+cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has
+to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present
+transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and
+reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves
+us with the card not present transactions, where we are seeing an increased number of fraudulent
+transactions in recent years. These are usually e-commerce or online portal-based transactions. In this
+case, fraudsters needed very less information about the physical card and cardholder to perform the
+transactions.  
+Fraud transactions can be of different types, below are some examples of fraudulent transaction types:
+- Merchant fraud - Merchant POS device is compromised and used to run fraudulent transactions.
+- Application Fraud - Fraudster applying for a new credit card on behalf of the cardholder.
+- Counterfeit Card Fraud - Usually committed through skimming. Information from the card is stolen
+and used to create a fake magnetic stripe card with stolen data.
+- Lost/Stolen Fraud – Transactions are performed using the cards that are either stolen from the
+cardholder or lost by the cardholder.
+- Not Received as Issued (NRI) - Fraudsters intercepts the mail and steal the credit cards issued to the
+cardholder.  
+  Any fraudulent transaction will add liability to different parties in the transaction flow like the
+merchant, merchant processor, networks like Visa/MasterCard, issuing processor, issuing bank and even
+cardholder depending on who was the weak link for that transaction.  
+  Although financial institutions are working hard to eliminate fraud in credit card transactions, it has
+been continuously rising as fraudsters are using the latest technologies to steal cardholder’s information,
+either through hacking or through social engineering.  
+  We can detect these fraudulent transactions by analyzing parameters from different segments of
+information like transactional information, historical information, etc. Also, considering the liability
+burden on banks, it is critical to be able to identify these fraudulent transactions in real time.  
+[back to top](#top)
+
+### Credit Card Fraud Statistics
+  There have been massive data breaches in the past few years, and these data breaches will make
+cardholder information available to fraudsters, subsequently increasing fraud. Below are some of the
+well-known data breaches happened in recent years:
+- Yahoo data breach in 2016 has impacted 3 billion user accounts.
+- Equifax data breach in 2017 has affected close to 150 million users.
+- Identity theft has been close to 400,000, during 2012 – 2016.
+Below statistics from **Figure 1** shows the change in the trend of the fraudulent transaction from the
+card present transaction until 2015 to the card not-present transactions after 2015.  
+![Credit Card Fraud Trends](/images/Fraud-Trends.png)
 [back to top](#top)
 
 ## Data Used
@@ -39,16 +89,16 @@ Below credit card transactions dataset from Kaggle has been used for this projec
 [back to top](#top)
 
 ## Method Used
-- I am planning to use Python for this project.
-- I will initially do some data visualization to understand any trends I can derive out of the data.
+- We are planning to use Python for this project.
+- We will initially do some data visualization to understand any trends we can derive out of the data.
 - Evaluate the data and apply data engineering as needed to be used for modelling.
 - Build the deep learning model to be able to predict the fraudulent transaction based on features
 provided.  
 [back to top](#top)
 
 ## Potential Issues
-- Having the transformed and normalized column data for most of the features would restrict me to a very few data visualizations I can derive from the data. I am planning to build my visualization using only the three columns in clear as the visualizations with other features would not add any value when we don’t know the attribute behind that feature.
-- We only have 284,807 transactions as part of this dataset, that might not be enough to train the model to achieve maximum performance. So I might have to find additional datasets or apply different data engineering and modeling techniques to make the most out of the data available.  
+- Having the transformed and normalized column data for most of the features would restrict me to a very few data visualizations we can derive from the data. We are planning to build my visualization using only the three columns in clear as the visualizations with other features would not add any value when we don’t know the attribute behind that feature.
+- We only have 284,807 transactions as part of this dataset, that might not be enough to train the model to achieve maximum performance. So we might have to find additional datasets or apply different data engineering and modeling techniques to make the most out of the data available.  
 [back to top](#top)
 
 ## Future scope
@@ -64,6 +114,6 @@ Once the model is ready, the next big challenge for me would be to evaluate opti
 Luke Sun (July 2020). Credit Card Fraud Detection.
 - https://towardsdatascience.com/credit-card-fraud-detection-9bc8db79b956
 - This article speaks about the data sampling issues as well as building different models to
-compare the performance of different modeling techniques. I will use this reference to
+compare the performance of different modeling techniques. We will use this reference to
 build the sample data as well as to build the machine learning models.  
 [back to top](#top)
