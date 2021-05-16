@@ -72,7 +72,8 @@ well-known data breaches happened in recent years:
 - Identity theft has been close to 400,000, during 2012 – 2016.
 Below statistics from **Figure 1** shows the change in the trend of the fraudulent transaction from the
 card present transaction until 2015 to the card not-present transactions after 2015.  
-![Credit Card Fraud Trends](/images/Fraud-Trends.png)
+![Credit Card Fraud Trends](./images/Fraud-Trends.png)
+
 [back to top](#top)
 
 ## Data Used
