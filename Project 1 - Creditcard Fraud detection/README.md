@@ -84,13 +84,13 @@ Figure 1: This image depicts the trend of reducing fraudulent transaction in car
 [back to top](#top)
 ### Conventional Fraud detection applications
   Currently, we have so many fraud prediction applications some of them are rules-based, and some of them are score based. These solutions use transactional and historical information to come up with fraud prediction. Below are a few drawbacks I have noticed with these types of applications:
--	Rules-based - Complex to build and manage the rules, we have seen clients setting up bad rules resulting in false positives impacting cardholders.
--	Score based - These applications use cardholder’s shopping pattern, distance from the location of the previous transaction, etc. to come up fraud score indicating how risky the transaction is. Primary issue I have noticed with this solution is that a new model would take a minimum of 3 months to be ready for production.
+- Rules-based -	Complex to build and manage the rules, we have seen clients setting up bad rules resulting in false positives impacting cardholders.
+-	Score based -	These applications use cardholder’s shopping pattern, distance from the location of the previous transaction, etc. to come up fraud score indicating how risky the transaction is. Primary issue I have noticed with this solution is that a new model would take a minimum of 3 months to be ready for production.
 -	Common - Both of the applications are highly dependent on human support who has very good domain knowledge.
 -	Common - Some of the fraud prediction applications predict the fraud after the transaction got processed, even though it would stop subsequent fraudulent transactions, cardholder is already impacted for that first fraudulent transaction.
 
 [back to top](#top)
-### Conventional Fraud detection applications
+### How data science can help?
   We need a robust fraud detection system that can accommodate all of the complexities involved with credit card transactions like high volume processing, volatility, variety of transactions, and criticality, and be able to consider the vast number of attributes available in transactional or historical data and predict fraudulent transactions with high precision in real time.
   The current solution of static rules-based fraud prediction tools won’t stand a chance before rapidly evolving credit card industry as well as increasing fraud in the industry.
   There are several machine learning algorithms that can be used to implement fraud prediction, in this project I have chosen Deep Neural Network (DNN) to see how much a deep learning machine learning model can help in detecting fraudulent transactions.
@@ -117,12 +117,12 @@ Feature Details
 
 [back to top](#top)
 
-## Method Used
-- We are planning to use Python for this project.
-- We will initially do some data visualization to understand any trends we can derive out of the data.
-- Evaluate the data and apply data engineering as needed to be used for modelling.
-- Build the deep learning model to be able to predict the fraudulent transaction based on features
-provided.  
+## Exploratory Data Analysis
+### Transaction Distribution by fraud indicator  
+<figure>
+    <img src="./images/Fraud_vs_Genuine-Bar_Chart.png" alt="Fraud vs Genuine" width="1000"/>
+    <figcaption align="Center">Figure 2: Genuine vs. Fraud transactions</figcaption>
+</figure>
 
 [back to top](#top)
 
