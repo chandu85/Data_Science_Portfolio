@@ -1,13 +1,19 @@
-# <a name="top">Creditcard Fraud detection</a>
-Chandramouli Yalamanchili  
-Updated - 03/28/2021 [Created - 03/28/2021]
-
+![Credit Card Fraud Detection](../images/credit-card.jpeg)
+# <a name="top"> </a>
+<h1 align="center">Creditcard Fraud detection</h1>
+<p align="center">
+  Chandramouli Yalamanchili  
+  <br/>Updated - 05/16/2021 [Created - 03/28/2021]
+</p>
+  
 ## Introduction
   We have witnessed an enormous evolution in credit card processing over last few years, issuing chip-based credit cards, starting mobile device-based wallets like Apple Pay is a significant change done to secure credit card transactions.
 
   Despite financial institutions (banks) working hard to eliminate fraud in credit card transactions, credit card fraud has been continuously rising over the last few years. Fraudsters are getting smarter and using latest technologies to steal cardholder’s information, either through hacking or through social engineering.
 
-  Increasing fraud in the industry makes fraud prediction very critical to be able to identify and stop fraud in real time, and data science plays a significant role in analyzing and being able to predict fraud based on transactional and cardholder information. The scope of this project is to research and identify different types of predictive analysis algorithms available that can be applied to determine and stop fraudulent transactions.  
+  Increasing fraud in the industry makes fraud prediction very critical to be able to identify and stop fraud in real time, and data science plays a significant role in analyzing and being able to predict fraud based on transactional and cardholder information. The scope of this project is to research and identify different types of predictive analysis algorithms available that can be applied to determine and stop fraudulent transactions.
+
+  In this project we have built a DNN (Deep Neural Network) model to identify the fraudulent transaction by passing the transaction features. We have achieved 99% of accurary with the DNN model we have built.  
 [back to top](#top)
 
 ## Project Motivation
@@ -46,12 +52,12 @@ provided.
 [back to top](#top)
 
 ## Future scope
-Once the model is ready, the next big challenge for me would be to evaluate options to integrate this model to work with real time transactions coming through to determine and stop the fradulent transactions immediately.
+Once the model is ready, the next big challenge for me would be to evaluate options to integrate this model to work with real time transactions coming through to determine and stop the fradulent transactions immediately.  
 [back to top](#top)
 
 ## Acknowledgement
   Once the machine learning model has been created, it can be used to efficiently stop the fraudulent credit card transactions.  
-  One big challenge with credit card transaction data is that the concentration of fradulent transactions is very low resulting in skewed data for training the models. We have to use the sampling techniques to balance the data before using the same to train the models to acheieve high accuracy.
+  One big challenge with credit card transaction data is that the concentration of fradulent transactions is very low resulting in skewed data for training the models. We have to use the sampling techniques to balance the data before using the same to train the models to acheieve high accuracy.  
 [back to top](#top)
 
 ## References
