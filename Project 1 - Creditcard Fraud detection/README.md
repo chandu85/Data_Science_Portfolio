@@ -37,16 +37,16 @@ for the financial institutions.
   Credit card processing is one of the fast-growing industries due to rapid advances in technology and with more and more customers switching to use credit cards instead of cash for purchases.
 Innovations like mobile wallets provided by Apple, Google, and other major technology firms have played an enormous role in increased usage of credit cards in recent years.  
 
-  On a very high level, credit card transactions can be of two types, card present, and the card not present transactions. Card present transactions are the transactions from retail stores or gas stations where cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves
+  On a very high level, credit card transactions can be of two types, **card present**, and the **card not present** transactions. Card present transactions are the transactions from retail stores or gas stations where cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves
 us with the card not present transactions, where we are seeing an increased number of fraudulent transactions in recent years. These are usually e-commerce or online portal-based transactions. In this case, fraudsters needed very less information about the physical card and cardholder to perform the
 transactions.  
 
 Fraud transactions can be of different types, below are some examples of fraudulent transaction types:
-- Merchant fraud - Merchant POS device is compromised and used to run fraudulent transactions.
-- Application Fraud - Fraudster applying for a new credit card on behalf of the cardholder.
-- Counterfeit Card Fraud - Usually committed through skimming. Information from the card is stolen and used to create a fake magnetic stripe card with stolen data.
-- Lost/Stolen Fraud – Transactions are performed using the cards that are either stolen from the cardholder or lost by the cardholder.
-- Not Received as Issued (NRI) - Fraudsters intercepts the mail and steal the credit cards issued to the cardholder.  
+- **Merchant fraud** - Merchant POS device is compromised and used to run fraudulent transactions.
+- **Application Fraud** - Fraudster applying for a new credit card on behalf of the cardholder.
+- **Counterfeit Card Fraud** - Usually committed through skimming. Information from the card is stolen and used to create a fake magnetic stripe card with stolen data.
+- **Lost/Stolen Fraud** – Transactions are performed using the cards that are either stolen from the cardholder or lost by the cardholder.
+- **Not Received as Issued (NRI)** - Fraudsters intercepts the mail and steal the credit cards issued to the cardholder.  
 
   Any fraudulent transaction will add liability to different parties in the transaction flow like the merchant, merchant processor, networks like Visa/MasterCard, issuing processor, issuing bank and even cardholder depending on who was the weak link for that transaction.  
 
@@ -136,6 +136,14 @@ Feature Details
 
 [back to top](#top)
 
+### 4. Correlation Matrix  
+  I have plotted the correlation between different features in the dataset, but I have seen only very few features with some correlation with the target variable, Class in this dataset.  
+<figure>
+    <center><img align="center" src="./images/Correlation_Matrix.png" alt="Correlation Matrix"/></center>
+    <figcaption align="center">Figure 5: Correlation Matrix showing relationships between different features</figcaption>
+</figure>  
+
+[back to top](#top)
 ## Potential Issues
 - Having the transformed and normalized column data for most of the features would restrict me to a very few data visualizations we can derive from the data. We are planning to build my visualization using only the three columns in clear as the visualizations with other features would not add any value when we don’t know the attribute behind that feature.
 - We only have 284,807 transactions as part of this dataset, that might not be enough to train the model to achieve maximum performance. So we might have to find additional datasets or apply different data engineering and modeling techniques to make the most out of the data available.  
@@ -143,7 +151,7 @@ Feature Details
 [back to top](#top)
 
 ## Future scope
-Once the model is ready, the next big challenge ould be to evaluate options to integrate this model to work with real time transactions coming through to determine and stop the fradulent transactions immediately. I will explore further to evaluate and determine best options to integrate fraud detection model into realtime transaction processing system.
+  Once the model is ready, the next big challenge ould be to evaluate options to integrate this model to work with real time transactions coming through to determine and stop the fradulent transactions immediately. I will explore further to evaluate and determine best options to integrate fraud detection model into realtime transaction processing system.
 
 [back to top](#top)
 
