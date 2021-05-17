@@ -88,8 +88,8 @@ Figure 1: This image depicts the trend of reducing fraudulent transaction in car
 ## Project Details
 ### Dataset Details
 Below credit card transactions dataset from Kaggle has been used for this project
-- Dataset - https://www.kaggle.com/mlg-ulb/creditcardfraud
-Feature Details
+- Dataset - https://www.kaggle.com/mlg-ulb/creditcardfraud  
+**Feature Details:**
 -	This dataset has total of 284,807 credit card transactions from September 2013.
 -	Out of 248,807, 492 transactions are fraudulent, which accounts for only a 0.172% of positive classes.
 -	This dataset has only few columns in clear, rest of the columns have been PCA transformed due to the confidentiality of the data. Below are the details for the columns that are in clear.
@@ -167,7 +167,7 @@ Feature Details
 #### 1. Deep Neural Network trained with imbalanced dataset
 - Below as shown in Table 1 are the performance metrics for the DNN model that is trained using imbalanced dataset
 
-Table 1: Model performance with imbalanced data
+Table 1: Model performance with imbalanced data  
 | Evaluation Metric	| Value |
 | ----------------- | ----- |
 | Loss | 0.45% |
@@ -190,7 +190,7 @@ Table 1: Model performance with imbalanced data
       <p float="left">
         <img src="./images/Accuracy_Plot-imbalanced_dataset.png" alt="Model Summary"/>
         <img src="./images/Loss_Plot-imbalanced_dataset.png" alt="Model Summary"/>
-      </p?
+      </p>
   </center>  
   <figcaption align="center">Figure 8: Accuracy and Loss plots for Model trained with imbalanced dataset</figcaption>
 </figure>  <br/>
