@@ -1,5 +1,5 @@
 <a name="top">   </a>
-<h1 align="center">Creditcard Fraud detection</h1>
+<h1 align="center">Creditcard Fraud Detection using Data Science</h1>
 <p align="center">
   Chandramouli Yalamanchili  
   <br/>Updated - 05/16/2021 [Created - 03/28/2021]
