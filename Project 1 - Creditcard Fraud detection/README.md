@@ -61,12 +61,10 @@ Fraud transactions can be of different types, below are some examples of fraudul
 - Equifax data breach in 2017 has affected close to 150 million users.
 - Identity theft has been close to 400,000, during 2012 – 2016.
 Below statistics from **Figure 1** shows the change in the trend of the fraudulent transaction from the card present transaction until 2015 to the card not-present transactions after 2015.  
-![Credit Card Fraud Trends](./images/Fraud-Trends.png)  
-Figure 1: This image depicts the trend of reducing fraudulent transaction in card present transactions and increase of fraud using card not present transaction after 2015.
-
-<!--
-  <img src="./images/Fraud-Trends.png" alt="Credit Card Fraud Trends" width="1000"/>
--->
+<figure>
+    <center><img align="center" src="./images/Fraud-Trends.png" alt="Credit Card Fraud Trends"/></center>
+    <figcaption align="center">Figure 1: This image depicts the trend of reducing fraudulent transaction in card present transactions and increase of fraud using card not present transaction after 2015.</figcaption>
+</figure>  
 
 [back to top](#top)
 ### Conventional Fraud detection applications
