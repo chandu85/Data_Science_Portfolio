@@ -6,7 +6,7 @@
 </p>
 
 <figure>
-    <img align="center" src="../images/credit-card.jpeg" alt="Credit Card Fraud Detection"/>    
+    <center><img align="center" src="../images/credit-card.jpeg" alt="Credit Card Fraud Detection"/></center>
 </figure>  
 <!-- ![Credit Card Fraud Detection](../images/credit-card.jpeg) -->
 
