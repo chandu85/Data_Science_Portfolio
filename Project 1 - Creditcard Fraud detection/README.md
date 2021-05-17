@@ -3,6 +3,10 @@
 <p align="center">
   Chandramouli Yalamanchili  
   <br/>Updated - 05/16/2021 [Created - 03/28/2021]
+  <br/>
+  <a href="https://github.com/chandu85/data-science/tree/Portfolio-Design/Project%201%20-%20Creditcard%20Fraud%20detection" target="_blank">
+    View Project on GitHub
+  </a>
 </p>
 
 <figure>
