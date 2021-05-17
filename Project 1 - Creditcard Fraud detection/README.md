@@ -169,8 +169,8 @@ Table 1: Model performance with imbalanced data
 <table>
   <thead>
     <tr>
-      <th> <bold>Evaluation Metric</bold> </th>
-      <th> <bold>Value</bold> </th>
+      <th> Evaluation Metric </th>
+      <th> Value </th>
     </tr>
   </thead>
   <tbody>
@@ -217,6 +217,67 @@ Table 1: Model performance with imbalanced data
       </p>
   </center>  
   <figcaption align="center">Figure 8: Accuracy and Loss plots for Model trained with imbalanced dataset</figcaption>
+</figure>  <br/>
+
+[back to top](#top)
+
+#### 2. Deep Neural Network trained with balanced dataset
+- For the 2nd expeirment, I have used SMOTE, the data oversampling technique to re-create the training and testing data by making sure both classes are in equal proportions.
+- I have also trained the DNN model for higher number of iterations with 50 epochs.
+- Below as shown in Table 2 are the performance metrics for the DNN model that is trained using imbalanced dataset
+
+Table 2: Model performance with balanced data  
+<table>
+  <thead>
+    <tr>
+      <th> Evaluation Metric </th>
+      <th> Value </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Loss</td>
+      <td>0.69%</td>
+    </tr>
+    <tr>
+      <td>Accuracy</td>
+      <td>99.88%</td>
+    </tr>
+    <tr>
+      <td>Accuracy Score</td>
+      <td>99.88%</td>
+    </tr>
+    <tr>
+      <td>Precision Score</td>
+      <td>99.76%</td>
+    </tr>
+    <tr>
+      <td>Recall Score</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>F1 Score</td>
+      <td>99.88%</td>
+    </tr>
+  </tbody>
+</table>
+
+- As we can see from the metrics above, even though the accuracy is high, the precision is not that great because of more negative (class=0) samples in the dataset.
+- Below shown in figure 7 is the confusion matrix reflecting the similar results.
+<figure>
+    <center><img align="center" src="./images/Confusion_Matrix-balanced_dataset.png" alt="Model Summary"/></center>
+    <figcaption align="center">Figure 7: Confusion Matrix for Model trained with balanced dataset</figcaption>
+</figure>  
+
+- Below accuracy and loss curves shows that model is fitting fine with the new sample data.
+<figure>
+    <center>
+      <p float="left">
+        <img src="./images/Accuracy_Plot-balanced_dataset.png" alt="Model Summary"/>
+        <img src="./images/Loss_Plot-balanced_dataset.png" alt="Model Summary"/>
+      </p>
+  </center>  
+  <figcaption align="center">Figure 8: Accuracy and Loss plots for Model trained with balanced dataset</figcaption>
 </figure>  <br/>
 
 [back to top](#top)
