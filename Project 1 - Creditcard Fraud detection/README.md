@@ -100,14 +100,14 @@ Feature Details
 
 [back to top](#top)
 
-## Technology used
+### Technology used
 - Python 3
 - Jupyter Notebook  
 
 [back to top](#top)
 
-## Exploratory Data Analysis
-### 1. Transaction Distribution by fraud indicator  
+### Exploratory Data Analysis
+#### 1. Transaction Distribution by fraud indicator  
   I have used the class column to show the distribution of fraud and genuine transactions in the input dataset. As expected the fraudulent transactions are very less in number accounting for only 0.172% of events.
 <figure>
     <center><img align="center" src="./images/Fraud_vs_Genuine-Bar_Chart.png" alt="Fraud vs Genuine"/></center>
@@ -116,7 +116,7 @@ Feature Details
 
 [back to top](#top)
 
-### 2. Transaction Distribution by time  
+#### 2. Transaction Distribution by time  
   I have derived the hour of the day by using the elapsed time feature, and by assuming that the transactions were captured starting from mid-night. As per the below chart, I can confirm below two observations are matching with my expectation in general:
 - Credit card Transactions are high during day hours.
 - Fraudulent Transactions are high during night hours.
@@ -127,7 +127,7 @@ Feature Details
 
 [back to top](#top)
 
-### 3. Transaction Distribution by transaction amount  
+#### 3. Transaction Distribution by transaction amount  
   I have used amount ranges to understand the distribution of the transactions by the transaction amounts. It seems like overall most of the transactions range from 0 - 100 amount. I was surprised to see considerable number of fraudulent transactions in 100-1000 amount range as well.  
 <figure>
     <center><img align="center" src="./images/Transaction_distribution_by_Amount.png" alt="Fraud vs Genuine"/></center>
@@ -136,7 +136,7 @@ Feature Details
 
 [back to top](#top)
 
-### 4. Correlation Matrix  
+#### 4. Correlation Matrix  
   I have plotted the correlation between different features in the dataset, but I have seen only very few features with some correlation with the target variable, Class in this dataset.  
 <figure>
     <center><img align="center" src="./images/Correlation_Matrix.png" alt="Correlation Matrix"/></center>
@@ -144,9 +144,56 @@ Feature Details
 </figure>  
 
 [back to top](#top)
-## Potential Issues
-- Having the transformed and normalized column data for most of the features would restrict me to a very few data visualizations we can derive from the data. We are planning to build my visualization using only the three columns in clear as the visualizations with other features would not add any value when we don’t know the attribute behind that feature.
-- We only have 284,807 transactions as part of this dataset, that might not be enough to train the model to achieve maximum performance. So we might have to find additional datasets or apply different data engineering and modeling techniques to make the most out of the data available.  
+### Data Preparation
+- I have normalized the amount and time fields to bring them to the range of -1 to +1 to be able to use these two features as input to the neural network.
+- I have dropped the existing Amount and Time fields from the dataset as I will be using the normalized features instead.
+- I have used sklearn's preprocessing package StandardScaler to standardize the time and amount features.
+
+[back to top](#top)
+
+### Modeling
+#### Model Details
+- Using Keras, I have built the neural network with 6 layers, including 4 hidden layers.
+- Compiled the model using adam optimizer, binary_crossentropy loss parameter, and using the accuracy metric.
+- Trained the model using training set for 10 epochs.
+- Below is the model summary as showin in figure 6.
+<figure>
+    <center><img align="center" src="./images/Model_Definition.png" alt="Model Summary"/></center>
+    <figcaption align="center">Figure 6: DNN Model Summary</figcaption>
+</figure>  
+
+[back to top](#top)
+
+#### 1. Deep Neural Network trained with imbalanced dataset
+- Below as shown in Table 1 are the performance metrics for the DNN model that is trained using imbalanced dataset
+
+Table 1: Model performance with imbalanced data
+| Evaluation Metric	| Value |
+| ----------------- | ----- |
+| Loss | 0.45% |
+| Accuracy | 99.91% |
+| Accuracy Score | 99.94% |
+| Precision Score | 83.82% |
+| Recall Score | 77.55% |
+| F1 Score | 80.57% |
+
+- As we can see from the metrics above, even though the accuracy is high, the precision is not that great because of more negative (class=0) samples in the dataset.
+- Below shown in figure 7 is the confusion matrix reflecting the similar results.
+<figure>
+    <center><img align="center" src="./images/Confusion_Matrix-imbalanced_dataset.png" alt="Model Summary"/></center>
+    <figcaption align="center">Figure 7: Confusion Matrix for Model trained with imbalanced dataset</figcaption>
+</figure>  
+
+- Due to the use of imbalanced dataset, the model has shown the signs of over-fitting, the validation results showed more losses than the training data as shown in figure 8 the accuracy and loss plots.
+<figure>
+    <center>
+      <p float="left">
+        <img src="./images/Accuracy_Plot-imbalanced_dataset.png" alt="Model Summary"/>
+        <img src="./images/Loss_Plot-imbalanced_dataset.png" alt="Model Summary"/>
+      </p?
+  </center>  
+  <figcaption align="center">Figure 8: Accuracy and Loss plots for Model trained with imbalanced dataset</figcaption>
+</figure>  <br/>
 
 [back to top](#top)
 
