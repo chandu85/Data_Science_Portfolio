@@ -168,14 +168,40 @@ Below credit card transactions dataset from Kaggle has been used for this projec
 - Below as shown in Table 1 are the performance metrics for the DNN model that is trained using imbalanced dataset
 
 Table 1: Model performance with imbalanced data  
-| Evaluation Metric	| Value |
-| ----------------- | ----- |
-| Loss | 0.45% |
-| Accuracy | 99.91% |
-| Accuracy Score | 99.94% |
-| Precision Score | 83.82% |
-| Recall Score | 77.55% |
-| F1 Score | 80.57% |
+<table>
+  <thead>
+    <tr>
+      <th>Evaluation Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Loss</td>
+      <td>0.45%</td>
+    </tr>
+    <tr>
+      <td>Accuracy</td>
+      <td>99.91%</td>
+    </tr>
+    <tr>
+      <td>Accuracy Score</td>
+      <td>99.94%</td>
+    </tr>
+    <tr>
+      <td>Precision Score</td>
+      <td>83.82%</td>
+    </tr>
+    <tr>
+      <td>Recall Score</td>
+      <td>77.55%</td>
+    </tr>
+    <tr>
+      <td>F1 Score</td>
+      <td>80.57%</td>
+    </tr>
+  </tbody>
+</table>
 
 - As we can see from the metrics above, even though the accuracy is high, the precision is not that great because of more negative (class=0) samples in the dataset.
 - Below shown in figure 7 is the confusion matrix reflecting the similar results.
