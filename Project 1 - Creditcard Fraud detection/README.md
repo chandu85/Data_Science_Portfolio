@@ -9,7 +9,7 @@
     <center><img src="../images/credit-card.jpeg" alt="Credit Card Fraud Detection"/></center>
 </figure>  
 <!-- ![Credit Card Fraud Detection](../images/credit-card.jpeg) -->
-
+<br/>
 
 ## Introduction
   We have witnessed an enormous evolution in credit card processing over last few years, issuing chip-based credit cards, starting mobile device-based wallets like Apple Pay is a significant change done to secure credit card transactions.
