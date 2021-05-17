@@ -100,7 +100,7 @@ Feature Details
 ### 1. Transaction Distribution by fraud indicator  
   I have used the class column to show the distribution of fraud and genuine transactions in the input dataset. As expected the fraudulent transactions are very less in number accounting for only 0.172% of events.
 <figure>
-    <img src="./images/Fraud_vs_Genuine-Bar_Chart.png" alt="Fraud vs Genuine"/>
+    <img align="center" src="./images/Fraud_vs_Genuine-Bar_Chart.png" alt="Fraud vs Genuine"/>
     <figcaption align="center">Figure 2: Genuine vs. Fraud transactions</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ Feature Details
 - Credit card Transactions are high during day hours.
 - Fraudulent Transactions are high during night hours.
 <figure>
-    <img src="./images/Transaction_distribution_by_Time.png" alt="Fraud vs Genuine"/>
+    <img align="center" src="./images/Transaction_distribution_by_Time.png" alt="Fraud vs Genuine"/>
     <figcaption align="center">Figure 3: Genuine vs. Fraud transaction distribution by Time</figcaption>
 </figure>  
 
@@ -120,8 +120,8 @@ Feature Details
 ### 3. Transaction Distribution by transaction amount  
   I have used amount ranges to understand the distribution of the transactions by the transaction amounts. It seems like overall most of the transactions range from 0 - 100 amount. I was surprised to see considerable number of fraudulent transactions in 100-1000 amount range as well.  
 <figure>
-    <img src="./images/Transaction_distribution_by_Amount.png" alt="Fraud vs Genuine"/>
-    <figcaption align="center"><center>Figure 4:</center> Genuine vs. Fraud transaction distribution by Amount</figcaption>
+    <img align="center" src="./images/Transaction_distribution_by_Amount.png" alt="Fraud vs Genuine"/>
+    <figcaption align="center">Figure 4: Genuine vs. Fraud transaction distribution by Amount</figcaption>
 </figure>  
 
 [back to top](#top)
