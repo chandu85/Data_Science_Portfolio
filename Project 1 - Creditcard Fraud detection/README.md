@@ -33,17 +33,22 @@ for the financial institutions.
 ### Credit Card Transactions
   Credit card processing is one of the fast-growing industries due to rapid advances in technology and with more and more customers switching to use credit cards instead of cash for purchases.
 Innovations like mobile wallets provided by Apple, Google, and other major technology firms have played an enormous role in increased usage of credit cards in recent years.  
+
   On a very high level, credit card transactions can be of two types, card present, and the card not present transactions. Card present transactions are the transactions from retail stores or gas stations where cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves
 us with the card not present transactions, where we are seeing an increased number of fraudulent transactions in recent years. These are usually e-commerce or online portal-based transactions. In this case, fraudsters needed very less information about the physical card and cardholder to perform the
 transactions.  
+
 Fraud transactions can be of different types, below are some examples of fraudulent transaction types:
 - Merchant fraud - Merchant POS device is compromised and used to run fraudulent transactions.
 - Application Fraud - Fraudster applying for a new credit card on behalf of the cardholder.
 - Counterfeit Card Fraud - Usually committed through skimming. Information from the card is stolen and used to create a fake magnetic stripe card with stolen data.
 - Lost/Stolen Fraud – Transactions are performed using the cards that are either stolen from the cardholder or lost by the cardholder.
 - Not Received as Issued (NRI) - Fraudsters intercepts the mail and steal the credit cards issued to the cardholder.  
+
   Any fraudulent transaction will add liability to different parties in the transaction flow like the merchant, merchant processor, networks like Visa/MasterCard, issuing processor, issuing bank and even cardholder depending on who was the weak link for that transaction.  
+
   Although financial institutions are working hard to eliminate fraud in credit card transactions, it has been continuously rising as fraudsters are using the latest technologies to steal cardholder’s information, either through hacking or through social engineering.   
+  
   We can detect these fraudulent transactions by analyzing parameters from different segments of information like transactional information, historical information, etc. Also, considering the liability burden on banks, it is critical to be able to identify these fraudulent transactions in real time.  
 
 [back to top](#top)
@@ -70,8 +75,10 @@ Figure 1: This image depicts the trend of reducing fraudulent transaction in car
 
 [back to top](#top)
 ### How data science can help?
-  We need a robust fraud detection system that can accommodate all of the complexities involved with credit card transactions like high volume processing, volatility, variety of transactions, and criticality, and be able to consider the vast number of attributes available in transactional or historical data and predict fraudulent transactions with high precision in real time.
-  The current solution of static rules-based fraud prediction tools won’t stand a chance before rapidly evolving credit card industry as well as increasing fraud in the industry.
+  We need a robust fraud detection system that can accommodate all of the complexities involved with credit card transactions like high volume processing, volatility, variety of transactions, and criticality, and be able to consider the vast number of attributes available in transactional or historical data and predict fraudulent transactions with high precision in real time.  
+  
+  The current solution of static rules-based fraud prediction tools won’t stand a chance before rapidly evolving credit card industry as well as increasing fraud in the industry.  
+  
   There are several machine learning algorithms that can be used to implement fraud prediction, in this project I have chosen Deep Neural Network (DNN) to see how much a deep learning machine learning model can help in detecting fraudulent transactions.
 
 [back to top](#top)
@@ -139,14 +146,18 @@ Once the model is ready, the next big challenge ould be to evaluate options to i
 
 ## Acknowledgement
   Thanks to Bellevue University and all professors for the continuous guidance and support through out the data science course. Thanks to Professor Fadi Alsaleem for providing continuous constructive feedback and peers for their valuable inputs and discussions that helped me in building this project.  
+  
   I also thank all the authors of the reference papers and articles.  
 
 [back to top](#top)
 
 ## Conclusion
   Credit card fraud is a growing concern in today’s world with both credit card usage and credit card fraud on the rise. As shown in the stats, the number of data breaches, identity theft cases, and credit card fraudulent transactions are rising at an alarming level.  
+  
   Data science plays a significant role in improving the fraud prediction tools we are currently using, by analyzing credit card transactions and being able to predict fraud based on transactional data, cardholder data, and historical data.  
+  
   Machine learning algorithms running on neural networks can be effective as proven in this project and they should replace the current static rules-based fraud detection products to improve the fraud prediction precision and to stay up to speed with market trends in detecting new strategies of fraudsters and stopping them.  
+  
   One common issue we will have with credit card transactions is less number of transactions that the number of fraudulent transactions will be very low when compared to the overall transaction volume. So, we have to use the relevant oversampling techniques to be able to train the models efficiently to do a better job at catching fraudulent transactions.  
 
 [back to top](#top)
