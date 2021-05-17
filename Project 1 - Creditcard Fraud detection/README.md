@@ -169,8 +169,8 @@ Table 1: Model performance with imbalanced data
 <table>
   <thead>
     <tr>
-      <th>Evaluation Metric</th>
-      <th>Value</th>
+      <th> <bold>Evaluation Metric</bold> </th>
+      <th> <bold>Value</bold> </th>
     </tr>
   </thead>
   <tbody>
