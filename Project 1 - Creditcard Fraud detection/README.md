@@ -262,14 +262,14 @@ Table 2: Model performance with balanced data
   </tbody>
 </table>
 
-- As we can see from the metrics above, even though the accuracy is high, the precision is not that great because of more negative (class=0) samples in the dataset.
-- Below shown in figure 7 is the confusion matrix reflecting the similar results.
+- As we can see from the metrics above, the model performance has improved significantly with the balanced dataset.
+- Below shown in figure 9 is the confusion matrix reflecting the similar results.
 <figure>
     <center><img align="center" src="./images/Confusion_Matrix-balanced_dataset.png" alt="Model Summary"/></center>
-    <figcaption align="center">Figure 7: Confusion Matrix for Model trained with balanced dataset</figcaption>
+    <figcaption align="center">Figure 9: Confusion Matrix for Model trained with balanced dataset</figcaption>
 </figure>  
 
-- Below accuracy and loss curves shows that model is fitting fine with the new sample data.
+- Below as shown in figure 10 the accuracy and loss curves reflects that model is fitting fine with the new sample data.
 <figure>
     <center>
       <p float="left">
@@ -277,7 +277,7 @@ Table 2: Model performance with balanced data
         <img src="./images/Loss_Plot-balanced_dataset.png" alt="Model Summary"/>
       </p>
   </center>  
-  <figcaption align="center">Figure 8: Accuracy and Loss plots for Model trained with balanced dataset</figcaption>
+  <figcaption align="center">Figure 10: Accuracy and Loss plots for Model trained with balanced dataset</figcaption>
 </figure>  <br/>
 
 [back to top](#top)
