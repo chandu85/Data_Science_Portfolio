@@ -1998,6 +1998,12 @@ input, select, textarea {
 			background-color: #fff;
 		}
 
+		.wrapper.style11 {
+			background-image: none;
+			background-color: #fff;
+			text-align:left;
+		}
+
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
