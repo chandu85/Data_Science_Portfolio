@@ -1,4 +1,5 @@
-<p align="right"><a href="https://chandu85.github.io/data-science/"><b>Home</b></a> | <a href="https://chandu85.github.io/data-science/about.html"><b>About Me</b></a></p>
+<!--<p align="right"><a href="https://chandu85.github.io/data-science/"><b>Home</b></a> | <a href="https://chandu85.github.io/data-science/about.html"><b>About Me</b></a></p>
+-->
 
 <h1 align="center">Chandramouli Yalamanchili</h1>
 <p align="center">Welcome to my data science portfolio</p>
