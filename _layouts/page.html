@@ -18,7 +18,7 @@
 			</ul>
 		</nav>
 
-		<article id="portfolio" class="wrapper style1">
+		<article id="portfolio" class="wrapper style11">
 			<div class="container">
 					{{ content }}
 			</div>
@@ -30,12 +30,42 @@
 				<hr />
 				<header>
 					<h2>Thank you for visting my portfolio!</h2>
-					<p>You can reach me at below links</p>
+					<p>Leave me a message using below form</p>
 				</header>
 				<div class="row">
 					<div class="col-12">
+						<form id="email-form" method="post" action="https://formspree.io/f/xbjqgawv">
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-small">
+									<input type="text" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<input type="text" name="subject" id="subject" placeholder="Subject" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" id="message" placeholder="Message"></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="reset" value="Clear Form" class="alt" /></li>
+									</ul>
+								</div>
+								<div class="col-12">
+									<p id="email-form-status"></p>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-12">
+						<hr />
+						<h3>You can also find me on ...</h3>
 						<ul class="social">
 							<li><a href="https://www.linkedin.com/in/chandramouli-yalamanchili-9b442816" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://twitter.com/ychandu85?s=09" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://github.com/chandu85" class="icon brands fa-github"><span class="label">Github</span></a></li>								
 						</ul>
 						<hr />
@@ -43,7 +73,7 @@
 				</div>
 				<footer>
 					<ul id="copyright">
-						<li>&copy; Untitled. All rights reserved.</li>
+						<li>&copy; Chandu Yalamanchili. All rights reserved.</li>
 					</ul>
 				</footer>
 			</div>
@@ -58,4 +88,26 @@
 			<script src="../assets/js/main.js"></script>
 
 	</body>
+	<script>
+		var form = document.getElementById("email-form");
+		
+		async function handleSubmit(event) {
+		  event.preventDefault();
+		  var status = document.getElementById("email-form-status");
+		  var data = new FormData(event.target);
+		  fetch(event.target.action, {
+			method: form.method,
+			body: data,
+			headers: {
+				'Accept': 'application/json'
+			}
+		  }).then(response => {
+			status.innerHTML = "Thanks for your submission!";
+			form.reset()
+		  }).catch(error => {
+			status.innerHTML = "Oops! There was a problem submitting your form"
+		  });
+		}
+		form.addEventListener("submit", handleSubmit)
+	</script>
 </html>
