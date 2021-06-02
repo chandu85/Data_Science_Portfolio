@@ -3,13 +3,17 @@
 <p align="center">
   Chandramouli Yalamanchili  
   <br/>Updated - 05/16/2021 [Created - 03/28/2021]
+  <br/>
+  <a href="https://github.com/chandu85/data-science/tree/Portfolio-Design/Project%201%20-%20Creditcard%20Fraud%20detection" target="_blank">
+    View Project on GitHub
+  </a>
 </p>
 
 <figure>
     <center><img src="../images/credit-card.jpeg" alt="Credit Card Fraud Detection"/></center>
 </figure>  
 <!-- ![Credit Card Fraud Detection](../images/credit-card.jpeg) -->
-
+<br/>
 
 ## Introduction
   We have witnessed an enormous evolution in credit card processing over last few years, issuing chip-based credit cards, starting mobile device-based wallets like Apple Pay is a significant change done to secure credit card transactions.
@@ -37,16 +41,16 @@ for the financial institutions.
   Credit card processing is one of the fast-growing industries due to rapid advances in technology and with more and more customers switching to use credit cards instead of cash for purchases.
 Innovations like mobile wallets provided by Apple, Google, and other major technology firms have played an enormous role in increased usage of credit cards in recent years.  
 
-  On a very high level, credit card transactions can be of two types, card present, and the card not present transactions. Card present transactions are the transactions from retail stores or gas stations where cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves
+  On a very high level, credit card transactions can be of two types, **card present**, and the **card not present** transactions. Card present transactions are the transactions from retail stores or gas stations where cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves
 us with the card not present transactions, where we are seeing an increased number of fraudulent transactions in recent years. These are usually e-commerce or online portal-based transactions. In this case, fraudsters needed very less information about the physical card and cardholder to perform the
 transactions.  
 
 Fraud transactions can be of different types, below are some examples of fraudulent transaction types:
-- Merchant fraud - Merchant POS device is compromised and used to run fraudulent transactions.
-- Application Fraud - Fraudster applying for a new credit card on behalf of the cardholder.
-- Counterfeit Card Fraud - Usually committed through skimming. Information from the card is stolen and used to create a fake magnetic stripe card with stolen data.
-- Lost/Stolen Fraud – Transactions are performed using the cards that are either stolen from the cardholder or lost by the cardholder.
-- Not Received as Issued (NRI) - Fraudsters intercepts the mail and steal the credit cards issued to the cardholder.  
+- **Merchant fraud** - Merchant POS device is compromised and used to run fraudulent transactions.
+- **Application Fraud** - Fraudster applying for a new credit card on behalf of the cardholder.
+- **Counterfeit Card Fraud** - Usually committed through skimming. Information from the card is stolen and used to create a fake magnetic stripe card with stolen data.
+- **Lost/Stolen Fraud** – Transactions are performed using the cards that are either stolen from the cardholder or lost by the cardholder.
+- **Not Received as Issued (NRI)** - Fraudsters intercepts the mail and steal the credit cards issued to the cardholder.  
 
   Any fraudulent transaction will add liability to different parties in the transaction flow like the merchant, merchant processor, networks like Visa/MasterCard, issuing processor, issuing bank and even cardholder depending on who was the weak link for that transaction.  
 
@@ -61,12 +65,10 @@ Fraud transactions can be of different types, below are some examples of fraudul
 - Equifax data breach in 2017 has affected close to 150 million users.
 - Identity theft has been close to 400,000, during 2012 – 2016.
 Below statistics from **Figure 1** shows the change in the trend of the fraudulent transaction from the card present transaction until 2015 to the card not-present transactions after 2015.  
-![Credit Card Fraud Trends](./images/Fraud-Trends.png)  
-Figure 1: This image depicts the trend of reducing fraudulent transaction in card present transactions and increase of fraud using card not present transaction after 2015.
-
-<!--
-  <img src="./images/Fraud-Trends.png" alt="Credit Card Fraud Trends" width="1000"/>
--->
+<figure>
+    <center><img align="center" src="./images/Fraud-Trends.png" alt="Credit Card Fraud Trends"/></center>
+    <figcaption align="center">Figure 1: This image depicts the trend of reducing fraudulent transaction in card present transactions and increase of fraud using card not present transaction after 2015.</figcaption>
+</figure>  
 
 [back to top](#top)
 ### Conventional Fraud detection applications
@@ -88,8 +90,8 @@ Figure 1: This image depicts the trend of reducing fraudulent transaction in car
 ## Project Details
 ### Dataset Details
 Below credit card transactions dataset from Kaggle has been used for this project
-- Dataset - https://www.kaggle.com/mlg-ulb/creditcardfraud
-Feature Details
+- Dataset - https://www.kaggle.com/mlg-ulb/creditcardfraud  
+**Feature Details:**
 -	This dataset has total of 284,807 credit card transactions from September 2013.
 -	Out of 248,807, 492 transactions are fraudulent, which accounts for only a 0.172% of positive classes.
 -	This dataset has only few columns in clear, rest of the columns have been PCA transformed due to the confidentiality of the data. Below are the details for the columns that are in clear.
@@ -100,14 +102,14 @@ Feature Details
 
 [back to top](#top)
 
-## Technology used
+### Technology used
 - Python 3
 - Jupyter Notebook  
 
 [back to top](#top)
 
-## Exploratory Data Analysis
-### 1. Transaction Distribution by fraud indicator  
+### Exploratory Data Analysis
+#### 1. Transaction Distribution by fraud indicator  
   I have used the class column to show the distribution of fraud and genuine transactions in the input dataset. As expected the fraudulent transactions are very less in number accounting for only 0.172% of events.
 <figure>
     <center><img align="center" src="./images/Fraud_vs_Genuine-Bar_Chart.png" alt="Fraud vs Genuine"/></center>
@@ -116,7 +118,7 @@ Feature Details
 
 [back to top](#top)
 
-### 2. Transaction Distribution by time  
+#### 2. Transaction Distribution by time  
   I have derived the hour of the day by using the elapsed time feature, and by assuming that the transactions were captured starting from mid-night. As per the below chart, I can confirm below two observations are matching with my expectation in general:
 - Credit card Transactions are high during day hours.
 - Fraudulent Transactions are high during night hours.
@@ -127,7 +129,7 @@ Feature Details
 
 [back to top](#top)
 
-### 3. Transaction Distribution by transaction amount  
+#### 3. Transaction Distribution by transaction amount  
   I have used amount ranges to understand the distribution of the transactions by the transaction amounts. It seems like overall most of the transactions range from 0 - 100 amount. I was surprised to see considerable number of fraudulent transactions in 100-1000 amount range as well.  
 <figure>
     <center><img align="center" src="./images/Transaction_distribution_by_Amount.png" alt="Fraud vs Genuine"/></center>
@@ -136,14 +138,156 @@ Feature Details
 
 [back to top](#top)
 
-## Potential Issues
-- Having the transformed and normalized column data for most of the features would restrict me to a very few data visualizations we can derive from the data. We are planning to build my visualization using only the three columns in clear as the visualizations with other features would not add any value when we don’t know the attribute behind that feature.
-- We only have 284,807 transactions as part of this dataset, that might not be enough to train the model to achieve maximum performance. So we might have to find additional datasets or apply different data engineering and modeling techniques to make the most out of the data available.  
+#### 4. Correlation Matrix  
+  I have plotted the correlation between different features in the dataset, but I have seen only very few features with some correlation with the target variable, Class in this dataset.  
+<figure>
+    <center><img align="center" src="./images/Correlation_Matrix.png" alt="Correlation Matrix"/></center>
+    <figcaption align="center">Figure 5: Correlation Matrix showing relationships between different features</figcaption>
+</figure>  
+
+[back to top](#top)
+### Data Preparation
+- I have normalized the amount and time fields to bring them to the range of -1 to +1 to be able to use these two features as input to the neural network.
+- I have dropped the existing Amount and Time fields from the dataset as I will be using the normalized features instead.
+- I have used sklearn's preprocessing package StandardScaler to standardize the time and amount features.
+
+[back to top](#top)
+
+### Modeling
+#### Model Details
+- Using Keras, I have built the neural network with 6 layers, including 4 hidden layers.
+- Compiled the model using adam optimizer, binary_crossentropy loss parameter, and using the accuracy metric.
+- Trained the model using training set for 10 epochs.
+- Below is the model summary as showin in figure 6.
+<figure>
+    <center><img align="center" src="./images/Model_Definition.png" alt="Model Summary"/></center>
+    <figcaption align="center">Figure 6: DNN Model Summary</figcaption>
+</figure>  
+
+[back to top](#top)
+
+#### 1. Deep Neural Network trained with imbalanced dataset
+- Below as shown in Table 1 are the performance metrics for the DNN model that is trained using imbalanced dataset
+
+Table 1: Model performance with imbalanced data  
+<table>
+  <thead>
+    <tr>
+      <th> Evaluation Metric </th>
+      <th> Value </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Loss</td>
+      <td>0.45%</td>
+    </tr>
+    <tr>
+      <td>Accuracy</td>
+      <td>99.91%</td>
+    </tr>
+    <tr>
+      <td>Accuracy Score</td>
+      <td>99.94%</td>
+    </tr>
+    <tr>
+      <td>Precision Score</td>
+      <td>83.82%</td>
+    </tr>
+    <tr>
+      <td>Recall Score</td>
+      <td>77.55%</td>
+    </tr>
+    <tr>
+      <td>F1 Score</td>
+      <td>80.57%</td>
+    </tr>
+  </tbody>
+</table>
+
+- As we can see from the metrics above, even though the accuracy is high, the precision is not that great because of more negative (class=0) samples in the dataset.
+- Below shown in figure 7 is the confusion matrix reflecting the similar results.
+<figure>
+    <center><img align="center" src="./images/Confusion_Matrix-imbalanced_dataset.png" alt="Model Summary"/></center>
+    <figcaption align="center">Figure 7: Confusion Matrix for Model trained with imbalanced dataset</figcaption>
+</figure>  
+
+- Due to the use of imbalanced dataset, the model has shown the signs of over-fitting, the validation results showed more losses than the training data as shown in figure 8 the accuracy and loss plots.
+<figure>
+    <center>
+      <p float="left">
+        <img src="./images/Accuracy_Plot-imbalanced_dataset.png" alt="Model Summary"/>
+        <img src="./images/Loss_Plot-imbalanced_dataset.png" alt="Model Summary"/>
+      </p>
+  </center>  
+  <figcaption align="center">Figure 8: Accuracy and Loss plots for Model trained with imbalanced dataset</figcaption>
+</figure>  <br/>
+
+[back to top](#top)
+
+#### 2. Deep Neural Network trained with balanced dataset
+- For the 2nd expeirment, I have used SMOTE, the data oversampling technique to re-create the training and testing data by making sure both classes are in equal proportions.
+- I have also trained the DNN model for higher number of iterations with 50 epochs.
+- Below as shown in Table 2 are the performance metrics for the DNN model that is trained using imbalanced dataset
+
+Table 2: Model performance with balanced data  
+<table>
+  <thead>
+    <tr>
+      <th> Evaluation Metric </th>
+      <th> Value </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Loss</td>
+      <td>0.69%</td>
+    </tr>
+    <tr>
+      <td>Accuracy</td>
+      <td>99.88%</td>
+    </tr>
+    <tr>
+      <td>Accuracy Score</td>
+      <td>99.88%</td>
+    </tr>
+    <tr>
+      <td>Precision Score</td>
+      <td>99.76%</td>
+    </tr>
+    <tr>
+      <td>Recall Score</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>F1 Score</td>
+      <td>99.88%</td>
+    </tr>
+  </tbody>
+</table>
+
+- As we can see from the metrics above, the model performance has improved significantly with the balanced dataset.
+- Below shown in figure 9 is the confusion matrix reflecting the similar results.
+<figure>
+    <center><img align="center" src="./images/Confusion_Matrix-balanced_dataset.png" alt="Model Summary"/></center>
+    <figcaption align="center">Figure 9: Confusion Matrix for Model trained with balanced dataset</figcaption>
+</figure>  
+
+- Below as shown in figure 10 the accuracy and loss curves reflects that model is fitting fine with the new sample data.
+<figure>
+    <center>
+      <p float="left">
+        <img src="./images/Accuracy_Plot-balanced_dataset.png" alt="Model Summary"/>
+        <img src="./images/Loss_Plot-balanced_dataset.png" alt="Model Summary"/>
+      </p>
+  </center>  
+  <figcaption align="center">Figure 10: Accuracy and Loss plots for Model trained with balanced dataset</figcaption>
+</figure>  <br/>
 
 [back to top](#top)
 
 ## Future scope
-Once the model is ready, the next big challenge ould be to evaluate options to integrate this model to work with real time transactions coming through to determine and stop the fradulent transactions immediately. I will explore further to evaluate and determine best options to integrate fraud detection model into realtime transaction processing system.
+  Once the model is ready, the next big challenge ould be to evaluate options to integrate this model to work with real time transactions coming through to determine and stop the fradulent transactions immediately. I will explore further to evaluate and determine best options to integrate fraud detection model into realtime transaction processing system.
 
 [back to top](#top)
 
