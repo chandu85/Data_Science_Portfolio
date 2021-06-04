@@ -54,8 +54,8 @@ Even though invasive ductal carcinoma is most common in older women, it can stil
 
 <figure>
     <center>
-        <img align="center" src="./Images/USCSChart_Rates.png" alt="Cancer Rates"/>
-        <img align="center" src="./Images/USCSChart.jpg" alt="Cancer Rates"/>
+        <img src="./Images/USCSChart_Rates.png" alt="Cancer Rates"/>
+        <img src="./Images/USCSChart.jpg" alt="Cancer Rates"/>
     </center>
     <figcaption align="center">Figure 2: Chart showing the annual rates of new cancer cases on the left, and the chart showing the annual number of new cancer cases on the right.</figcaption>
 </figure>  
