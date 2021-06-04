@@ -1,7 +1,3 @@
-# <a name="top">Breast Cancer Classification using Computer Vision</a>
-Chandramouli Yalamanchili  
-Updated - 03/28/2021 [Created - 03/28/2021]
-
 <a name="top">   </a>
 <h1 align="center">Breast Cancer Classification using Computer Vision</h1>
 <p align="center">
@@ -44,12 +40,12 @@ On a very high level, breast cancer can be of different types like invasive, non
 
 <figure>
     <center>
-        <img align="center" src="./images/IDC_Cancer.jpg" alt="Invasic Ductual Carcinoma"/>
-        <img align="center" src="./images/IDC_Cancer_Details.png" alt="Invasic Ductual Carcinoma"/>
+        <img align="center" src="./Images/IDC_Cancer.jpg" alt="Invasive Ductual Carcinoma"/>
+        <img align="center" src="./Images/IDC_Cancer_Details.png" alt="Invasive Ductual Carcinoma"/>
     </center>
     <figcaption align="center">Figure 1: Picture showing the invasive Ductal Carcinoma (IDC). Showing the abnormal growth in the enlarged cell within the duct.</figcaption>
 </figure>  
-
+<br/>
 As shown in Figure 1, in case of IDC, the cancer would break through the duct cell’s membrane and invade or spread to the nearby tissues. In this case the cancer would start in ductal tissue of the breast, duct is the tube that connects the lobules to the nipple. Carcinoma is the type of cancer that starts in the tissue that covers the internal organs, like breast cell in this case. If not detected early, invasive ductal carcinoma can invade the other tissues within breast or even other parts of the body.  
 
 Even though invasive ductal carcinoma is most common in older women, it can still affect younger women as well as men. Early detection of the breast cancer will help in increasing the survival rates of the patients. Currently the histopathologists diagnose the tissues extracted from the suspicious tumors and provide information related to type of cancer, and its grade when the tumor tests to be malignant. Data science can help in evaluating the suspected tumor tissues through an automated computer vision workflow and provide the diagnosis along with grade there by saving time as well increasing the accuracy of the diagnosis.  
@@ -58,12 +54,12 @@ Even though invasive ductal carcinoma is most common in older women, it can stil
 
 <figure>
     <center>
-        <img align="center" src="./images/USCSChart_Rates.jpg" alt="Cancer Rates"/>
-        <img align="center" src="./images/USCSChart.jpg" alt="Cancer Rates"/>
+        <img align="center" src="./Images/USCSChart_Rates.jpg" alt="Cancer Rates"/>
+        <img align="center" src="./Images/USCSChart.jpg" alt="Cancer Rates"/>
     </center>
     <figcaption align="center">Figure 2: Chart showing the annual rates of new cancer cases on the left, and the chart showing the annual number of new cancer cases on the right.</figcaption>
 </figure>  
-
+<br/>
 As we can see in Figure 2, the rates for new breast cancer cases as the number of breast cancer cases over the years has not been coming down. Below are some of the stats for breast cancer in 2020 to put some perspective around the seriousness of the issue:
 - 276K women are estimated to be diagnosed with breast cancer in 2020. 
 - 42K women are estimated to die from breast cancer in the year 2020.
@@ -135,7 +131,7 @@ Table 1: Table with critical statistics from the IDC dataset.
 
 <figure>
     <center>
-        <img align="center" src="./images/EDA_BarChart_Class_Distribution.png" alt="IDC Images distribution"/>
+        <img align="center" src="./Images/EDA_BarChart_Class_Distribution.png" alt="IDC Images distribution"/>
     </center>
     <figcaption align="center">Figure 3: Bar Chart showing the distribution of different diagnosis classes in the IDC dataset.</figcaption>
 </figure>  
@@ -147,7 +143,7 @@ Table 1: Table with critical statistics from the IDC dataset.
 
 <figure>
     <center>
-        <img align="center" src="./images/EDA_IDC_Histology_Images.png" alt="IDC Histology images"/>
+        <img align="center" src="./Images/EDA_IDC_Histology_Images.png" alt="IDC Histology images"/>
     </center>
     <figcaption align="center">Figure 4: Benign and Malignant cells for 5 random patients.</figcaption>
 </figure>  
@@ -209,17 +205,18 @@ Table 2: Model performance with balanced data
 <figure>
     <center>
       <p float="left">
-        <img src="./images/Modeling_Accuracy_Plot.png" alt="Model Summary"/>
-        <img src="./images/Modeling_Loss_Plot.png" alt="Model Summary"/>
+        <img src="./Images/Modeling_Accuracy_Plot.png" alt="Model Summary"/>
+        <img src="./Images/Modeling_Loss_Plot.png" alt="Model Summary"/>
       </p>
   </center>  
   <figcaption align="center">Figure 5: Accuracy and Loss plots for CNN Model. </figcaption>
 </figure> 
+<br/>
 - Figure 6 also depicts the confusion matrix from the prediction results of the model, showing 74% of accurate cancer prediction results (TN).
 - Training the model with more data and for more iterations would probably further improve the model’s performance in predicting cancer accurately.
 <figure>
     <center>
-        <img align="center" src="./images/Modeling_Confusion-Matrix.png" alt="Confusion Matrix"/>
+        <img align="center" src="./Images/Modeling_Confusion-Matrix.png" alt="Confusion Matrix"/>
     </center>
     <figcaption align="center">Figure 6: Confusion Matrix.</figcaption>
 </figure>  
