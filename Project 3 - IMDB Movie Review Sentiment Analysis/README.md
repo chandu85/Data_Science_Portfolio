@@ -4,7 +4,7 @@
   Chandramouli Yalamanchili  
   <br/>Updated - 06/03/2021 [Created - 03/28/2021]
   <br/>
-  <a href="https://github.com/chandu85/data-science/tree/Portfolio-Design/Project%203%20-%20IMDB%20Movie%20Review%20Sentiment%20Analysis" target="_blank">
+  <a href="https://github.com/chandu85/data-science/tree/main/Project%203%20-%20IMDB%20Movie%20Review%20Sentiment%20Analysis" target="_blank">
     View Project on GitHub
   </a>
 </p>
