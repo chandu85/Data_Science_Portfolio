@@ -66,6 +66,7 @@ As we can see in Figure 2, the rates for new breast cancer cases as the number o
 - 2K men are estimated to be diagnosed with breast cancer in 2020.
 - 81% of breast cancer diagnosis are invasive. 
 
+
 [back to top](#top)
 
 ## Project Details
@@ -76,12 +77,12 @@ Dataset Link - <a href="https://www.kaggle.com/paultimothymooney/breast-histopat
 -	IDC (Invasive Ductal Carcinoma) is the type of cancer that these patches are classified against.
 -	Each patch or image file in this dataset is segregated into several folders based on the complete patient id. Within each folder, the images are again segregated by the class of the patch depending on whether it is classified as IDC or not. 
 -	Each individual image follows a specific file name formatting as well:
-  -	uxXyYclassC.png is the format being used for file name.
-  -	‘u’ is the patient ID
-  -	‘X’ is the x-coordinate of where the particular patch image was copied from. 
-  -	‘Y’ is the y-coordinate of where the particular patch image was copied from.
-  -	‘C’ indicates the classification, where 0 indicates non-IDC and 1 indicates IDC.
-  -	10253idx5x1351y1101class0.png is an example patch image file name.
+    -	uxXyYclassC.png is the format being used for file name.
+    -	‘u’ is the patient ID
+    -	‘X’ is the x-coordinate of where the particular patch image was copied from. 
+    -	‘Y’ is the y-coordinate of where the particular patch image was copied from.
+    -	‘C’ indicates the classification, where 0 indicates non-IDC and 1 indicates IDC.
+    -	10253idx5x1351y1101class0.png is an example patch image file name.
 
 [back to top](#top)
 
