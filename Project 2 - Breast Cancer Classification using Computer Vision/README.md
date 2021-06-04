@@ -71,17 +71,17 @@ As we can see in Figure 2, the rates for new breast cancer cases as the number o
 ## Project Details
 ### Dataset Details
 Dataset Link - <a href="https://www.kaggle.com/paultimothymooney/breast-histopathology-images/" target="_blank">https://www.kaggle.com/paultimothymooney/breast-histopathology-images/</a>    
-•	This dataset is the collection of 277,524 patch images, these patch images were extracted from 162 complete breast cancer specimen images that are captured with 40x magnification.
-•	Out of these 277k sample images collection, 198K images are samples of negative samples indicating non breast cancer patches, and 78K images are samples of positive samples diagnosed as impacted by breast cancer.
-•	IDC (Invasive Ductal Carcinoma) is the type of cancer that these patches are classified against.
-•	Each patch or image file in this dataset is segregated into several folders based on the complete patient id. Within each folder, the images are again segregated by the class of the patch depending on whether it is classified as IDC or not. 
-•	Each individual image follows a specific file name formatting as well:
-o	uxXyYclassC.png is the format being used for file name.
-o	‘u’ is the patient ID
-o	‘X’ is the x-coordinate of where the particular patch image was copied from. 
-o	‘Y’ is the y-coordinate of where the particular patch image was copied from.
-o	‘C’ indicates the classification, where 0 indicates non-IDC and 1 indicates IDC.
-o	10253idx5x1351y1101class0.png is an example patch image file name.
+-	This dataset is the collection of 277,524 patch images, these patch images were extracted from 162 complete breast cancer specimen images that are captured with 40x magnification.
+-	Out of these 277k sample images collection, 198K images are samples of negative samples indicating non breast cancer patches, and 78K images are samples of positive samples diagnosed as impacted by breast cancer.
+-	IDC (Invasive Ductal Carcinoma) is the type of cancer that these patches are classified against.
+-	Each patch or image file in this dataset is segregated into several folders based on the complete patient id. Within each folder, the images are again segregated by the class of the patch depending on whether it is classified as IDC or not. 
+-	Each individual image follows a specific file name formatting as well:
+  -	uxXyYclassC.png is the format being used for file name.
+  -	‘u’ is the patient ID
+  -	‘X’ is the x-coordinate of where the particular patch image was copied from. 
+  -	‘Y’ is the y-coordinate of where the particular patch image was copied from.
+  -	‘C’ indicates the classification, where 0 indicates non-IDC and 1 indicates IDC.
+  -	10253idx5x1351y1101class0.png is an example patch image file name.
 
 [back to top](#top)
 
@@ -233,7 +233,7 @@ Convolution Neural Networks (CNNs) seems to be the popular solution for computer
 ## Acknowledgement
 Thanks to Bellevue University and all professors for the continuous guidance and support through out the data science course. Thanks to Professor Fadi Alsaleem for providing continuous constructive feedback and peers for their valuable inputs and discussions that helped me in building this project.  
   
-  I also thank all the authors of the reference papers and articles.  
+I also like to thank all the authors of the reference papers and articles.  
 
 [back to top](#top)
 
