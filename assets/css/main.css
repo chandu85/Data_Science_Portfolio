@@ -2009,6 +2009,23 @@ input, select, textarea {
 			line-height: 1.25em;
 		}
 
+		.wrapper.style11 th, .wrapper.style11 td {
+			border: 1px darkgray;
+			padding: 8px;
+		}
+
+		.wrapper.style11 tr:nth-child(even){
+			background-color: #f2f2f2;
+		}
+
+		.wrapper.style11 th {
+			background-color: rgba(8, 124, 201, 0.918);
+			padding-top: 12px;
+			padding-bottom: 12px;
+			color: white;
+			text-align: left;
+		}
+
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
