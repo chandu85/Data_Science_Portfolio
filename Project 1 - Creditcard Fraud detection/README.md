@@ -27,23 +27,19 @@
 [back to top](#top)
 
 ## Project Motivation
-- I currently have multiple fraud detection tools and most of them highly dependent on manual intervention to build and maintain for more efficiency in catching fraud.
+- We currently have multiple fraud detection tools and most of them highly dependent on manual intervention to build and maintain for more efficiency in catching fraud.
 - Through this project, I wanted to research and see how data science and machine learning can help in this area to catch the fraud automatically with very less to no need of human supervision.
-- Credit card fraud has always been one of the major concerns for financial institutions as it could
-them financially in term of penalties as well as impact their reputation.
-- Being able to detect fraud efficiently in real time with less human support would be a great help
-for the financial institutions.  
+- Credit card fraud has always been one of the major concerns for financial institutions as it could them financially in term of penalties as well as impact their reputation.
+- Being able to detect fraud efficiently in real time with less human support would be a great help for the financial institutions.  
 
 [back to top](#top)
 
 ## Domain Introduction
 ### Credit Card Transactions
-  Credit card processing is one of the fast-growing industries due to rapid advances in technology and with more and more customers switching to use credit cards instead of cash for purchases.
-Innovations like mobile wallets provided by Apple, Google, and other major technology firms have played an enormous role in increased usage of credit cards in recent years.  
+  Credit card processing is one of the fast-growing industries due to
+  rapid advances in technology and with more and more customers switching to use credit cards instead of cash for purchases. Innovations like mobile wallets provided by Apple, Google, and other major technology firms have played an enormous role in increased usage of credit cards in recent years.  
 
-  On a very high level, credit card transactions can be of two types, **card present**, and the **card not present** transactions. Card present transactions are the transactions from retail stores or gas stations where cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves
-us with the card not present transactions, where we are seeing an increased number of fraudulent transactions in recent years. These are usually e-commerce or online portal-based transactions. In this case, fraudsters needed very less information about the physical card and cardholder to perform the
-transactions.  
+  On a very high level, credit card transactions can be of two types, **card present**, and the **card not present** transactions. Card present transactions are the transactions from retail stores or gas stations where cardholder is present during the transaction, and that makes fraud a little bit difficult as the fraudster has to either steal the physical card or copy the card details, to create a duplicate card. Fraud in card present transactions has reduced in recent years due to the introduction of chip cards (challenging to copy and reproduce) and increased usage of mobile wallets which have the same security as chip cards. That leaves us with the card not present transactions, where we are seeing an increased number of fraudulent transactions in recent years. These are usually e-commerce or online portal-based transactions. In this case, fraudsters needed very less information about the physical card and cardholder to perform the transactions.  
 
 Fraud transactions can be of different types, below are some examples of fraudulent transaction types:
 - **Merchant fraud** - Merchant POS device is compromised and used to run fraudulent transactions.
@@ -146,6 +142,7 @@ Below credit card transactions dataset from Kaggle has been used for this projec
 </figure>  
 
 [back to top](#top)
+
 ### Data Preparation
 - I have normalized the amount and time fields to bring them to the range of -1 to +1 to be able to use these two features as input to the neural network.
 - I have dropped the existing Amount and Time fields from the dataset as I will be using the normalized features instead.
