@@ -4,7 +4,7 @@
   Chandramouli Yalamanchili  
   <br/>Updated - 06/04/2021 [Created - 03/28/2021]
   <br/>
-  <a href="https://github.com/chandu85/data-science/tree/Portfolio-Design/Project%204%20-%20Air%20Travel%20Safety" target="_blank">
+  <a href="https://github.com/chandu85/data-science/tree/main/Project%204%20-%20Air%20Travel%20Safety" target="_blank">
     View Project on GitHub
   </a>
 </p>
@@ -54,15 +54,15 @@ In this post I would like to present different statistical data showing how much
     <figcaption align="center">Figure 1: Dashboard with air travel statistics</figcaption>
 </figure>  
 
-I have used PowerBI to build a visualization dashboard that includes below visualizations:
-    1. Two Line charts - I have used two line charts, one for showing the trend of airline crash fatalities, and the 2nd one to show the trend of auto crash fatalities. Both of these trends are by year, using the historic data from source 4 mentioned above. I have used trend line to show the trend clearly.
-    2. One Stacked bar chart - I have used stacked bar chart to show the top 10 airlines based on the fatalities count, considering the total number of fatalities from 1985-2014.
-    3. Two Scatter plots - I have used scatter plots to show the relation between the fatalities before 2000 vs, fatalities after 2000, and fatal incidents before 2000 vs. fatal incidents after 2000. I have noticed that there is no correlation that can be established for fata incidents, which makes sense to some extent as each crash is different and can lead to different number of fatalities depending on conditions. But, we can establish come correlation between the fatal incidents themselves, so the airlines that had incidents before 2000 continued to have incidents in the recent years as well after 2000.
-    4. Two metric cards - These are used to reflect the average number of fatalities happened per year from auto crashes compared to the average number of fatalities happened per year from the airline crashes.  
+I have used PowerBI to build a visualization dashboard that includes below visualizations:  
+1. Two Line charts - I have used two line charts, one for showing the trend of airline crash fatalities, and the 2nd one to show the trend of auto crash fatalities. Both of these trends are by year, using the historic data from source 4 mentioned above. I have used trend line to show the trend clearly.
+2. One Stacked bar chart - I have used stacked bar chart to show the top 10 airlines based on the fatalities count, considering the total number of fatalities from 1985-2014.
+3. Two Scatter plots - I have used scatter plots to show the relation between the fatalities before 2000 vs, fatalities after 2000, and fatal incidents before 2000 vs. fatal incidents after 2000. I have noticed that there is no correlation that can be established for fata incidents, which makes sense to some extent as each crash is different and can lead to different number of fatalities depending on conditions. But, we can establish come correlation between the fatal incidents themselves, so the airlines that had incidents before 2000 continued to have incidents in the recent years as well after 2000.
+4. Two metric cards - These are used to reflect the average number of fatalities happened per year from auto crashes compared to the average number of fatalities happened per year from the airline crashes.  
 [back to top](#top)
 
 #### 2. Blogpost
-I have create **[blog post](https://chandu-dsc.blogspot.com/2020/10/is-it-safe-to-travel-by-air.html)** to discuss the airline safety using the visual statistics.  
+I have create **<a href="https://chandu-dsc.blogspot.com/2020/10/is-it-safe-to-travel-by-air.html" target="_blank">Blog Post</a>()** to discuss the airline safety using the visual statistics.  
 [back to top](#top)
 
 #### 3. Infographic
@@ -75,7 +75,7 @@ I have used PPT template to put togehter the above infographic showing various s
 
 [back to top](#top)
 
-#### 4. Other visualizations
+#### 4. Other visualizations  
 a. Airline Fatalities Trend - this visualization shows the trend of airline fatalities between 1985 & 2020.
 <figure>
     <center>
