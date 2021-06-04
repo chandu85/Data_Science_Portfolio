@@ -66,7 +66,9 @@ I have create **<a href="https://chandu-dsc.blogspot.com/2020/10/is-it-safe-to-t
 [back to top](#top)
 
 #### 3. Infographic
-I have used PPT template to put togehter the above infographic showing various statistics about air travel and then the comparison for number of fatalities in air travel with other means of travel.<figure>
+I have used PPT template to put togehter the above infographic showing various statistics about air travel and then the comparison for number of fatalities in air travel with other means of travel.  
+
+<figure>
     <center>
         <img align="center" src="./Images/Infographics.png" alt="Air Travel safety"/>
     </center>
