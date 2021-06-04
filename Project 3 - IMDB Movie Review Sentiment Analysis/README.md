@@ -132,7 +132,7 @@ Table 1: Table with high level details about the IMDB movie reviews dataset.
 
 <figure>
     <center>
-        <img align="center" src="./Images/EDA-Box Plots By Sentiment.png" alt="Review length distribution by sentiment"/>
+        <img align="center" src="./Images/EDA-Box_Plots-By-Sentiment.png" alt="Review length distribution by sentiment"/>
     </center>
     <figcaption align="center">Figure 4: Box plot showing distribution of number of words per review by sentiment.</figcaption>
 </figure>  
@@ -142,8 +142,8 @@ Table 1: Table with high level details about the IMDB movie reviews dataset.
 Figure 5 below depicts the distribution of words by positive and negative sentiments. As we can see the distribution of review length (number of words) look similar to both positive and negative reviews. But the positive reviews seem to have some outliers expanding the max review length close to 2500 words.  
 <figure>
     <center>
-        <img align="center" src="./Images/EDA-Number-Of-words-Postive.png" alt="Movie review length distribution for positive reviews"/>
-        <img align="center" src="./Images/EDA-Number-Of-words-Negative.png" alt="Movie review length distribution for negativee reviews"/>
+        <img align="center" src="./Images/EDA-Number-Of-words-Postive-2.png" alt="Movie review length distribution for positive reviews"/>
+        <img align="center" src="./Images/EDA-Number-Of-words-Negative-2.png" alt="Movie review length distribution for negativee reviews"/>
     </center>
     <figcaption align="center">Figure 5: Distribution by number of words in review for positive sentiment on left, and negative sentiment on right.</figcaption>
 </figure>   
@@ -189,8 +189,8 @@ Figure 6 below depicts the WordCloud plots for both positive and negative review
 
 <figure>
     <center>
-        <img align="center" src="./Images/EDA-WordCloud-Positive.png" alt="Word cloud plot for positive reviews"/>
-        <img align="center" src="./Images/EDA-WordCloud-Negative.png" alt="Word cloud plot for positive reviews"/>
+        <img align="center" src="./Images/EDA-WordCloud-Positive-2.png" alt="Word cloud plot for positive reviews"/>
+        <img align="center" src="./Images/EDA-WordCloud-Negative-2.png" alt="Word cloud plot for positive reviews"/>
     </center>
     <figcaption align="center">Figure 6: WordCloud plot for positive sentiment on the left and for the negative sentiment on the right.</figcaption>
 </figure>  
