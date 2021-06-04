@@ -41,7 +41,7 @@ On a very high level, breast cancer can be of different types like invasive, non
 <figure>
     <center>
         <img align="center" src="./Images/IDC_Cancer.jpg" alt="Invasive Ductual Carcinoma"/>
-        <img align="center" src="./Images/IDC_Cancer_Details.png" alt="Invasive Ductual Carcinoma"/>
+        <img align="center" src="./Images/IDC_Cancer_Details.jpg" alt="Invasive Ductual Carcinoma"/>
     </center>
     <figcaption align="center">Figure 1: Picture showing the invasive Ductal Carcinoma (IDC). Showing the abnormal growth in the enlarged cell within the duct.</figcaption>
 </figure>  
