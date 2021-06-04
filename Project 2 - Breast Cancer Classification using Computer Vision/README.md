@@ -168,7 +168,7 @@ We have built a multi-layer Convolutional Neural Network (CNN) using Keras to pe
 - As shown in Table 2, model has achieved 88% accuracy in predicting the cancer cells accurately.  
 
 #### Model Performance
-Table 2: Model performance with balanced data  
+Table 2: Model performance  
 <table>
   <thead>
     <tr>

@@ -2014,16 +2014,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style11 th, .wrapper.style11 td {
-			border: 1px solid rgba(8, 124, 201, 0.918);
+			border: 1px solid rgb(79, 129, 189);
 			padding: 8px;
 		}
 
 		.wrapper.style11 tr:nth-child(even){
-			background-color: #f2f2f2;
+			background-color: #dbe5f1;
 		}
 
 		.wrapper.style11 th {
-			background-color: rgba(8, 124, 201, 0.918);
+			background-color: rgb(79, 129, 189);
 			padding-top: 12px;
 			padding-bottom: 12px;
 			color: white;
