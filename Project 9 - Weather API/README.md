@@ -1,5 +1,5 @@
 <a name="top">   </a>
-<h1 align="center">Weather API<</h1>
+<h1 align="center">Weather API</h1>
 <p align="center">
   Chandramouli Yalamanchili  
   <br/>Updated - 06/03/2021 [Created - 03/28/2021]
