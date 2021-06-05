@@ -39,7 +39,7 @@ Through this project we have performed the analysis to identify different import
     - job_level - Level of the job role, or expertise level of the candidate.
     - year - Year of the application decision.
     - salary - Salary offered to the candidate for the position.
-- Below are some of the other variables present in the input dataset that I dropped for this case study as I didn't see them fit.
+- Below are some of the other variables present in the input dataset that I dropped for this project as I didn't see them fit.
     - employer_name
     - job_info_work_city
     - pw_job_title_9089
@@ -294,7 +294,7 @@ I also like to thank all the authors of the reference papers and articles.
 ## Conclusion
 The graph analysis on the US permanent visa applications dataset has given me very good insight into the dataset, helped me in understanding this dataset in different perspective. It also helped me to realize some interesting facts. One of such fact being the very high number of approved, but expired cases. Also one good thing I see out of this analysis is that there are very less number of denials.  
 
-Through this project, I have also learned that it is better to apply the normalization after we complete the graph analysis to understand the data and before we feed data into any models. I have also noticed that conversion of categorical features into numeric through one hot technique is probably not ideal when we have many possible values like in this case. So, depending on how I use this data as part of case study part 3, I will probably have to adopt a different technique.  	
+Through this project, I have also learned that it is better to apply the normalization after we complete the graph analysis to understand the data and before we feed data into any models. I have also noticed that conversion of categorical features into numeric through one hot technique is probably not ideal when we have many possible values like in this case.	
 
 And finally, I have built a logistic regression model to predict if a US permanent visa will be granted based on provided data or not. Overall the model I have built seems to be predicting the certified cases well, but predicting too many of the denied cases as certified as well. 
   
