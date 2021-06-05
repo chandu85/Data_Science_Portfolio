@@ -56,11 +56,10 @@ Through this project we have performed the analysis to identify different import
 
 ### Exploratory Data Analysis
 I have applied several data cleaning steps as part of this project to be able to derive proper insights from it as well as to prepare it for modeling. Below I have documented different steps I have performed as part of data preperation as well as data analysis through graphs.  
+
 #### 1. Data Overview
 - To start with I have reviewed the data and identified the rows with missing values, below is the initial view of missing data by features.  
-
 Table 1: Table showing the missing data by features.  
-
 <table>
   <thead>
     <tr>
@@ -91,7 +90,7 @@ Table 1: Table showing the missing data by features.
     </tr>
     <tr>
       <td>employer_name</td>
-      <td><12/td>
+      <td>12/td>
     </tr>
     <tr>
       <td>employer_num_employees</td>
