@@ -24,7 +24,7 @@ The goal of this project is to evaluate the fraud detection dataset, perform the
 [back to top](#top)
 
 ## Usage
-- Download the dataset from Kaggle and in the path `../Data/creditcard.csv`
+- Download the dataset from Kaggle and place it in the path `../Data/creditcard.csv`
 - Install all of the Python packages needed.
 - Execute the jupyter notebook in the Jupyter server of choice.  
 [back to top](#top)

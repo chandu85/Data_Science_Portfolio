@@ -28,7 +28,7 @@ The goal of this project is to use BERT models to perform the sentiment analysis
 [back to top](#top)
 
 ## Usage
-- Download the dataset from Kaggle and in the path `../Data/IMDB-Dataset.csv`
+- Download the dataset from Kaggle and place it in the path `../Data/IMDB-Dataset.csv`
 - Install all of the Python packages needed.
 - Execute the jupyter notebook in the Jupyter server of choice.  
 [back to top](#top)

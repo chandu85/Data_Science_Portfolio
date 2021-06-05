@@ -29,7 +29,7 @@ The goal of this project is to build a Keras based CNN (Convolutional Neural Net
 [back to top](#top)
 
 ## Usage
-- Download the dataset from Kaggle and in the path `../Data/Images/*`
+- Download the dataset from Kaggle and place it in the path `../Data/Images/*`
 - Install all of the Python packages needed.
 - Execute the jupyter notebook in the Jupyter server of choice.  
 [back to top](#top)

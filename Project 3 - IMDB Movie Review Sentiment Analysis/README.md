@@ -284,7 +284,7 @@ In this paper we have taken the IMDB reviews dataset that had 50,000 reviews and
 [back to top](#top)
 
 ## References
-1.	1.	Liddy, E.D. 2001. Natural Language Processing. In Encyclopedia of Library and Information Science, 2nd Ed. NY. Marcel Decker, Inc. Retrieved on 06/02 from https://surface.syr.edu/cgi/viewcontent.cgi?referer=https://scholar.google.com/&httpsredir=1&article=1019&context=cnlp
+1.	Liddy, E.D. 2001. Natural Language Processing. In Encyclopedia of Library and Information Science, 2nd Ed. NY. Marcel Decker, Inc. Retrieved on 06/02 from https://surface.syr.edu/cgi/viewcontent.cgi?referer=https://scholar.google.com/&httpsredir=1&article=1019&context=cnlp
 2.	Vishal A. Kharde, S.S. Sonawane, “Sentiment Analysis of Twitter Data: A Survey of Techniques” International Journal of Computer Applications (0975 – 8887) Volume 139 – No.11, April 2016. Retrieved from https://arxiv.org/pdf/1601.06971.pdf
 3.	Prabowo, R., & Thelwall, M. (2009). Sentiment analysis: A combined approach. Journal of Informetrics, 3(2), 143-157. Retrieved from.
 4.	Agarwal, A., Xie, B., Vovsha, I., Rambow, O., & Passonneau, R. J. (2011, June). Sentiment analysis of twitter data. In Proceedings of the workshop on language in social media (LSM 2011) (pp. 30-38). Retrieved on 06/02 from https://www.aclweb.org/anthology/W11-0705.pdf  
