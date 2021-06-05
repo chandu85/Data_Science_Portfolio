@@ -90,7 +90,7 @@ Table 1: Table showing the missing data by features.
     </tr>
     <tr>
       <td>employer_name</td>
-      <td>12/td>
+      <td>12</td>
     </tr>
     <tr>
       <td>employer_num_employees</td>
