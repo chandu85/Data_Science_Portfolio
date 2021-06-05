@@ -4,8 +4,8 @@
   Chandramouli Yalamanchili  
   <br/>Updated - 05/16/2021 [Created - 03/28/2021]
   <br/>
-  <a href="https://github.com/chandu85/data-science/tree/main/Project%201%20-%20Creditcard%20Fraud%20detection" target="_blank">
-    View Project on GitHub
+  <a href="https://github.com/chandu85/data-science/tree/main/Project%201%20-%20Creditcard%20Fraud%20detection/Code" target="_blank">
+    View Project Code on GitHub
   </a>
 </p>
 

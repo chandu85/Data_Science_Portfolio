@@ -4,8 +4,8 @@
   Chandramouli Yalamanchili  
   <br/>Updated - 06/03/2021 [Created - 03/28/2021]
   <br/>
-  <a href="https://github.com/chandu85/data-science/tree/main/Project%202%20-%20Breast%20Cancer%20Classification%20using%20Computer%20Vision" target="_blank">
-    View Project on GitHub
+  <a href="https://github.com/chandu85/data-science/tree/main/Project%202%20-%20Breast%20Cancer%20Classification%20using%20Computer%20Vision/Code" target="_blank">
+    View Project Code on GitHub
   </a>
 </p>
 
