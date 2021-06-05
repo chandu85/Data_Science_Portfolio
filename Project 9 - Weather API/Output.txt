@@ -1,0 +1,46 @@
+ 680 - T302 Applied Data Science (2215-1)/data-science/Project 9 - Weather API/WeatherApi.py" 
+!!!Welcome to the weather application!!!
+
+Please enter zip code (with in USA) or city name: Omaha
+
+========================================
+     Weather details for Omaha, US      
+========================================
+Current Conditions:
+ Temperature       :  78.42°F
+ Condition         :  clear sky
+ Pressure          :  1011 hPa
+ Humidity          :  45 %
+ Wind              :  10.36 m/s, 160°
+
+Forecast for whole day:
+ Minimum Temp      :  73.35°F
+ Maximum Temp      :  81.12°F
+ Sunrise           :  Fri Jun  4 10:51:58 2021 UTC
+ Sunset            :  Sat Jun  5 01:52:37 2021 UTC
+========================================
+
+Would you like to pull weather data for some other location (enter y to continue)? y
+
+Please enter zip code (with in USA) or city name: 78759
+
+========================================
+     Weather details for Austin, US     
+========================================
+Current Conditions:
+ Temperature       :  70.32°F
+ Condition         :  light rain
+ Pressure          :  1013 hPa
+ Humidity          :  89 %
+ Wind              :  1.01 m/s, 87°
+
+Forecast for whole day:
+ Minimum Temp      :  68.22°F
+ Maximum Temp      :  72.25°F
+ Sunrise           :  Fri Jun  4 11:29:01 2021 UTC
+ Sunset            :  Sat Jun  5 01:30:06 2021 UTC
+========================================
+
+Would you like to pull weather data for some other location (enter y to continue)? 
+
+!!!Thank you for using the weather application!!!

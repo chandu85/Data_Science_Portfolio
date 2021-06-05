@@ -31,20 +31,20 @@ Through this project we have performed the analysis to identify different import
 - Original dataset - <a href="https://www.kaggle.com/jboysen/us-perm-visas" target="_blank>https://www.kaggle.com/jboysen/us-perm-visas</a>.
 - Modified the original dataset to come up with us_perm_visas_final.csv that is used in this project.
 - Below are the features that are present in this dataset:
-        - case_status - This is the status of the US Permanent visa application.
-        - entry_visa – Type of visa that the candidate entered into USA with. 
-        - citizenship - Country of citizenship of the candidate. 
-        - no_of_employees - Number of employees under the employer who filed petition for the candidate.
-        - state - USA state where employer is located.
-        - job_level - Level of the job role, or expertise level of the candidate.
-        - year - Year of the application decision.
-        - salary - Salary offered to the candidate for the position.
+    - case_status - This is the status of the US Permanent visa application.
+    - entry_visa – Type of visa that the candidate entered into USA with. 
+    - citizenship - Country of citizenship of the candidate. 
+    - no_of_employees - Number of employees under the employer who filed petition for the candidate.
+    - state - USA state where employer is located.
+    - job_level - Level of the job role, or expertise level of the candidate.
+    - year - Year of the application decision.
+    - salary - Salary offered to the candidate for the position.
 - Below are some of the other variables present in the input dataset that I dropped for this case study as I didn't see them fit.
-        - employer_name
-        - job_info_work_city
-        - pw_job_title_9089
-        - pw_soc_title
-        - birth_country  
+    - employer_name
+    - job_info_work_city
+    - pw_job_title_9089
+    - pw_soc_title
+    - birth_country  
 
 [back to top](#top)
 
@@ -57,8 +57,10 @@ Through this project we have performed the analysis to identify different import
 ### Exploratory Data Analysis
 I have applied several data cleaning steps as part of this project to be able to derive proper insights from it as well as to prepare it for modeling. Below I have documented different steps I have performed as part of data preperation as well as data analysis through graphs.  
 #### 1. Data Overview
-- To start with I have reviewed the data and identified the rows with missing values, below is the initial view of missing data by features:
+- To start with I have reviewed the data and identified the rows with missing values, below is the initial view of missing data by features.  
+
 Table 1: Table showing the missing data by features.  
+
 <table>
   <thead>
     <tr>
