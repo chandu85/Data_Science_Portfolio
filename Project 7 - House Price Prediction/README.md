@@ -19,7 +19,7 @@ The goal of this project is to build the linear regression model to house price 
 [back to top](#top)
 
 ## Input Dataset
-- <a href="https://www.kaggle.com/kamelyounes/house-prices-prediction/?select=train.csv" taget="_blank">https://www.kaggle.com/kamelyounes/house-prices-prediction/?select=train.csv</a>
+- <a href="https://www.kaggle.com/kamelyounes/house-prices-prediction/?select=train.csv" target="_blank">https://www.kaggle.com/kamelyounes/house-prices-prediction/?select=train.csv</a>
 - I have pulled the home price data from Kaggle link provided above and used it for the project.  
 [back to top](#top)
 
