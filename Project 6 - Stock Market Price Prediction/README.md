@@ -58,6 +58,10 @@ The goal of this project is to use ARIMA, Auto Regressive Integrated Moving Aver
 - Both the Mean Squared Error and Symmetric mean absolute percentage error values are low indicating that the model has performed good.  
 [back to top](#top)
 
+## References
+- <a href="https://www.kaggle.com/pierpaolo28/stock-market-analysis-and-time-series-prediction/" target="_blank">https://www.kaggle.com/pierpaolo28/stock-market-analysis-and-time-series-prediction/</a>  
+[back to top](#top)
+
 ## Authors
 - Chandramouli Yalamanchili  
 [back to top](#top)
