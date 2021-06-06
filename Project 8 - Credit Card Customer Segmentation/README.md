@@ -51,11 +51,11 @@ The goal of this project is to build a KMeans clustering model that would cluste
 - Used Python and Jupyter notebook for this project.
 - Perform data visualization and summary functions to understand the distribution of the data as well as to identify the outliers present in the data.
 - Performed few data engineering steps to prepare the data for the modeling:
-        - Dropped the rows with missing values.
-        - Plotted some box plots to understand the distribution of the data depending on different amount fields.
-        - Ran the dataset through hopkins test to make sure data is eligible for clustering.
-        - Dropped the features that are interesting from clustering perspective.
-        - Scaled the data to eliminate the outliers and make the dataset ready for clustering.
+    - Dropped the rows with missing values.
+    - Plotted some box plots to understand the distribution of the data depending on different amount fields.
+    - Ran the dataset through hopkins test to make sure data is eligible for clustering.
+    - Dropped the features that are interesting from clustering perspective.
+    - Scaled the data to eliminate the outliers and make the dataset ready for clustering.
 - Used elbow curve and silhouette analysis techniques to derive the optimal number of clusters - derived the optimal cluster number to be '3'.
 - Created KMeans clustering model using 3 clusters and ran through the model to come up with cluster labels for the customer records.
 - Plotted the dataset using bad chart and scatter plot to show the distribution of data based on cluster and the records seem to have clustered porperly.  
