@@ -4,7 +4,7 @@
   Chandramouli Yalamanchili  
   <br/>Updated - 06/05/2021 [Created - 03/28/2021]
   <br/>
-  <a href="https://github.com/chandu85/data-science/tree/main/Project%208%20-%20Credit%20Card%20Customer%20Segmentation" target="_blank">
+  <a href="https://github.com/chandu85/data-science/tree/main/Project%207%20-%20House%20Price%20Prediction" target="_blank">
     View Project Code on GitHub
   </a>
 </p>
