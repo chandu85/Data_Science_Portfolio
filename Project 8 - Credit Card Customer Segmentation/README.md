@@ -72,7 +72,7 @@ The goal of this project is to build a KMeans clustering model that would cluste
 - Based on the plots showing the cluster distribution, it seem like the records got clustered properly. Below is the observation from the clusters:
     - 0 - Moderate spending customers.
     - 1 - Low spending customers.
-    - 2 - High spending customers. 
+    - 2 - High spending customers.  
 [back to top](#top)
 
 ## References
