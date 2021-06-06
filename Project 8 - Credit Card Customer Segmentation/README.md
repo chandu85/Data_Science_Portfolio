@@ -15,12 +15,12 @@
 <br/>
 
 ## Introduction
-The goal of this project is to build a random forest model that would predict the patients with high risk and have higher chance of stroke. This helps in providing the advanced warning to alert the patients so that theey can apply proper precautions and possibly the prevent the stroke.   
+The goal of this project is to build a KMeans clustering model that would cluster the credit card customer records based on the selected features. This would help the banks to categorize into portfolio clusters and offer set of products or incentives that suite well to the specific portfolio.   
 [back to top](#top)
 
 ## Input Dataset
-- <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset" taget="_blank">https://www.kaggle.com/fedesoriano/stroke-prediction-dataset</a>
-- I have pulled the health care dataset from Kaggle link provided above and used it for the project.  
+- <a href="https://www.kaggle.com/arjunbhasin2013/ccdata" taget="_blank">https://www.kaggle.com/arjunbhasin2013/ccdata</a>
+- I have pulled the above credit card customer data filed from Kaggle and used it for the project.  
 [back to top](#top)
 
 ## Prerequisite
@@ -32,15 +32,17 @@ The goal of this project is to build a random forest model that would predict th
     - Numpy
     - Seaborn
     - Matplotlib
-    - imblearn
+    - pandas_profiling
     - scikit-learn
     - pandas_profiling
     - scipy 
+    - math
+    - warnings
 
 [back to top](#top)
 
 ## Usage
-- Download the dataset from Yahoo finance website using the link provided and place it in the path `Data/healthcare-dataset-stroke-data.csv`
+- Download the dataset from Yahoo finance website using the link provided and place it in the path `Data/CC GENERAL.csv`
 - Install all of the Python packages needed.
 - Execute the jupyter notebook in the Jupyter server of choice.  
 [back to top](#top)
@@ -49,22 +51,32 @@ The goal of this project is to build a random forest model that would predict th
 - Used Python and Jupyter notebook for this project.
 - Perform data visualization and summary functions to understand the distribution of the data as well as to identify the outliers present in the data.
 - Performed few data engineering steps to prepare the data for the modeling:
-        - Converted the columns with categorical data to numeric data.
-        - Replaced missing values for bmi column with mean value.
-        - Removed outliers from the data.
-        - Applied SMOTE oversampling technique to oversample the minority class.
-        - Applied one hot encoding to prepare the dataset for modeling.
-- Created random forest grid model using RandomForestClassifierTrained from sklearn.
-- Trained the model with the training data.
-- Conducted testing for the newly created model and captured several metrics to understand the model performance.  
+        - Dropped the rows with missing values.
+        - Plotted some box plots to understand the distribution of the data depending on different amount fields.
+        - Ran the dataset through hopkins test to make sure data is eligible for clustering.
+        - Dropped the features that are interesting from clustering perspective.
+        - Scaled the data to eliminate the outliers and make the dataset ready for clustering.
+- Used elbow curve and silhouette analysis techniques to derive the optimal number of clusters - derived the optimal cluster number to be '3'.
+- Created KMeans clustering model using 3 clusters and ran through the model to come up with cluster labels for the customer records.
+- Plotted the dataset using bad chart and scatter plot to show the distribution of data based on cluster and the records seem to have clustered porperly.  
+<figure>
+  <center>
+    <img href="Images/Cluster-scatterPlot.png" alt="Clustering - Scatter plot"/>
+  </center>
+  <figcaption align="center">Figure 1: Scatter plot showing the distribution of clusters by credit limit amount.</figcaption>
+</figure>  
 [back to top](#top)
 
 ## Conclusion
-- Based on the accuracy, precision score, and precision-recall scores, random forest model seem to have performed really well in stroke prediction.  
+- Based on the elbow curve as well as the silhouette analysis, 3 seemed to be the optimal number of clusters for this dataset. So, I have built KMeans model with 3 clusters and clustered the records into 3 clusters.
+- Based on the plots showing the cluster distribution, it seem like the records got clustered properly. Below is the observation from the clusters:
+    - 0 - Moderate spending customers.
+    - 1 - Low spending customers.
+    - 2 - High spending customers. 
 [back to top](#top)
 
 ## References
-- <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset" target="_blank">https://www.kaggle.com/fedesoriano/stroke-prediction-dataset</a>  
+- <a href="https://www.kaggle.com/arjunbhasin2013/ccdata" target="_blank">https://www.kaggle.com/arjunbhasin2013/ccdata</a>  
 [back to top](#top)
 
 ## Authors
