@@ -62,6 +62,7 @@ The goal of this project is to build the linear regression model to house price 
     - Decision tree grid search - 0.74
     - XGBoost   - 0.88
 - Also, the score on training set and testing set are very close indicating that there is no overfitting of the training data in the model.  
+
 [back to top](#top)
 
 ## References
