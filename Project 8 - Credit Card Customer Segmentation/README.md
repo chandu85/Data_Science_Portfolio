@@ -61,7 +61,7 @@ The goal of this project is to build a KMeans clustering model that would cluste
 - Plotted the dataset using bad chart and scatter plot to show the distribution of data based on cluster and the records seem to have clustered porperly.  
 <figure>
   <center>
-    <img href="Images/Cluster-scatterPlot.png" alt="Clustering - Scatter plot"/>
+    <img href="./Images/Cluster-scatterPlot.png" alt="Clustering - Scatter plot"/>
   </center>
   <figcaption align="center">Figure 1: Scatter plot showing the distribution of clusters by credit limit amount.</figcaption>
 </figure>  
