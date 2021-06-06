@@ -36,6 +36,7 @@ The goal of this project is to use ARIMA, Auto Regressive Integrated Moving Aver
     - scikit-learn
     - ARIMA model from statsmodels.tsa.arima_model
     - datetime  
+
 [back to top](#top)
 
 ## Usage
